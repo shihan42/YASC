@@ -9,11 +9,13 @@ import { CustomMaterialModule } from './custom-material/custom-material.module';
 import { AppRoutingModule } from './app-routing.module';
 import { LoggerModule } from 'ngx-logger';
 import { environment } from '../environments/environment';
+import { StoreModule } from '@ngrx/store';
+import { reducers, metaReducers } from './state';
 
 
 @NgModule({
 	declarations: [
-		AppComponent
+		AppComponent,
 	],
 	imports: [
 		BrowserModule,
@@ -26,7 +28,8 @@ import { environment } from '../environments/environment';
 			serverLoggingUrl: `http://my-api/logs`,
 			level: environment.logLevel,
 			serverLogLevel: environment.serverLogLevel
-		})
+		}),
+		StoreModule.forRoot(reducers, {metaReducers})
 	],
 	bootstrap: [AppComponent]
 })

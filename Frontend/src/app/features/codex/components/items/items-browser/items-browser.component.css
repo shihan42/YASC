@@ -9,3 +9,8 @@
 .search-bar {
     min-width: 450px;
 }
+
+.item-list {
+    max-height: 750px;
+    overflow: auto;
+}

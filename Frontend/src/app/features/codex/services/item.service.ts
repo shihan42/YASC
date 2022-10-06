@@ -1,5 +1,7 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Item, ItemCategory } from '../models/itemBrowser';
+import { Observable } from 'rxjs';
+import { Item } from '../models/items';
 
 
 @Injectable({
@@ -7,51 +9,12 @@ import { Item, ItemCategory } from '../models/itemBrowser';
 })
 export class ItemService
 {
-    items = [
-        { id: "standard",   name: "Standard",   items: [
-            { id: "plates", name: "Plates" },
-            { id: "rods",   name: "Rods" },
-            { id: "wire",   name: "Wire" }
-        ]},
-        { id: "industrial", name: "Industrial", items: [
-            { id: "rotor",  name: "Rotor" },
-            { id: "stator", name: "Stator" }
-        ]},
-        { id: "electronics",  name: "Electronics", items: [
-            { id: "chip",     name: "Chip" },
-            { id: "computer", name: "Computer" }
-        ]}
-    ];
-
-    constructor()
+    constructor(private http : HttpClient)
     {}
 
-    getItems(filter : string = "") : ItemCategory[]
+    retrieveItems() : Observable<Item[]>
     {
-        if (filter.length == 0)
-        {
-            return this.items;
-        }
-
-        let filteredItems : ItemCategory[] = [];
-
-        this.items.forEach(category => {
-            let dummyCategory = {...category};
-            dummyCategory.items = [];
-
-            category.items.forEach(item => {
-                if (item.name.toLowerCase().includes(filter.toLocaleLowerCase()))
-                {
-                    dummyCategory.items.push(item);
-                }
-            });
-
-            if (dummyCategory.items.length > 0)
-            {
-                filteredItems.push(dummyCategory);
-            }
-        });
-
-        return filteredItems;
+        let url = "/assets/data/items.json";
+        return this.http.get<Item[]>(url);
     }
 }

@@ -8,6 +8,7 @@ import { ItemsBrowserComponent } from './components/items/items-browser/items-br
 import { RecipesBrowserComponent } from './components/recipes/recipes-browser/recipes-browser.component';
 import { BuildingsBrowserComponent } from './components/buildings/buildings-browser/buildings-browser.component';
 import { ItemDetailComponent } from './components/items/item-detail/item-detail.component';
+import { ItemFilterPipe } from './pipes/item-filter.pipe';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ItemDetailComponent } from './components/items/item-detail/item-detail.
         ItemsBrowserComponent,
         ItemDetailComponent,
         RecipesBrowserComponent,
-        BuildingsBrowserComponent
+        BuildingsBrowserComponent,
+        ItemFilterPipe
     ],
     imports: [
         CommonModule,

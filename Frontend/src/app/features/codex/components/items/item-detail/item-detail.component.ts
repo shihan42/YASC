@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { NGXLogger } from 'ngx-logger';
-import { Item } from '../../../models/itemBrowser';
+import { Item } from '../../../models/items';
 
 
 @Component({
@@ -22,7 +22,7 @@ export class ItemDetailComponent implements OnInit
 
     ngOnInit(): void
     {
-        this.titleService.setTitle(`YASC - Item ${this.item?.id}`);
-        this.logger.log(`Item detail for item ${this.item?.id} loaded`);
+        this.titleService.setTitle(`YASC - Item ${this.item?.name}`);
+        this.logger.log(`Item detail for item ${this.item?.className} loaded`);
     }
 }

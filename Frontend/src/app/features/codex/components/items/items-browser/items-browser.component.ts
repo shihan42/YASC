@@ -1,7 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { Store } from '@ngrx/store';
 import { NGXLogger } from 'ngx-logger';
-import { Item, ItemCategory } from '../../../models/itemBrowser';
+import { retrievedItems } from 'src/app/state/items.actions';
+
+import { selectItems } from 'src/app/state/items.selectors';
+import { Item } from '../../../models/items';
 import { ItemService } from '../../../services/item.service';
 
 
@@ -12,10 +16,13 @@ import { ItemService } from '../../../services/item.service';
 })
 export class ItemsBrowserComponent implements OnInit
 {
-    items : ItemCategory[] = [];
-    currentItem : Item | null = null;
+    items$ = this.store.select(selectItems);
+    currentItem : Item|null = null;
+
+    filterString : string = "";
 
 	constructor(
+        private store: Store,
         private itemService : ItemService,
         private titleService: Title,
         private logger: NGXLogger
@@ -24,14 +31,11 @@ export class ItemsBrowserComponent implements OnInit
 
     ngOnInit(): void
     {
-        this.titleService.setTitle('YASC - Items');
-        this.logger.log('Items browser loaded');
+        this.titleService.setTitle("YASC - Items");
+        this.logger.log("Items browser loaded");
 
-        this.retrieveItems();
-    }
-
-    retrieveItems(filter : string = "") : void
-    {
-        this.items = this.itemService.getItems(filter);
+        this.itemService.retrieveItems().subscribe(items => {
+            this.store.dispatch(retrievedItems({items: items}));
+        });
     }
 }
