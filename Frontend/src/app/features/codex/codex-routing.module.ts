@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LayoutComponent } from 'src/app/shared/layout/layout.component';
-import { BuildingsBrowserComponent } from './buildings-browser/buildings-browser.component';
+import { BuildingsBrowserComponent } from './components/buildings/buildings-browser/buildings-browser.component';
 
-import { CodexHomeComponent } from './codex-home/codex-home.component';
-import { ItemsBrowserComponent } from './items-browser/items-browser.component';
-import { RecipesBrowserComponent } from './recipes-browser/recipes-browser.component';
+import { CodexHomeComponent } from './components/codex-home/codex-home.component';
+import { ItemDetailComponent } from './components/items/item-detail/item-detail.component';
+import { ItemsBrowserComponent } from './components/items/items-browser/items-browser.component';
+import { RecipesBrowserComponent } from './components/recipes/recipes-browser/recipes-browser.component';
 
 
 const routes: Routes = [
@@ -20,7 +21,12 @@ const routes: Routes = [
             },
             {
                 path: 'items',
-                component: ItemsBrowserComponent
+                component: ItemsBrowserComponent,
+                pathMatch: 'full'
+            },
+            {
+                path: 'items/:itemId',
+                component: ItemDetailComponent
             },
             {
                 path: 'recipes',

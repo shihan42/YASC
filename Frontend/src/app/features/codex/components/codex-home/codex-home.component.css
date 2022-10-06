@@ -11,3 +11,14 @@
     color: white;
     background-color: #e88427
 }
+
+.menu-item-card > img {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.menu-item-card-content {
+    margin-top: 25px;
+    min-height: 50px;
+}

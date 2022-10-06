@@ -1,0 +1,36 @@
+<div class="container" fxLayout="row" fxLayoutAlign="center none">
+    <div fxFlex="95%">
+        <mat-card>
+            <mat-card-content>
+                <h2>Item Browser</h2>
+                <mat-form-field class="search-bar" appearance="fill">
+                    <mat-label>Search</mat-label>
+                    <mat-icon matPrefix>search</mat-icon>
+                    <input matInput #search placeholder="" value="" (keyup)="retrieveItems(search.value)">
+                    <button *ngIf="search.value" matSuffix mat-icon-button (click)="search.value='';retrieveItems('')">
+                        <mat-icon>close</mat-icon>
+                    </button>
+                </mat-form-field>
+                <div class="container" fxLayout="row" fxLayoutGap="50px" fxLayoutAlign="center none">
+                    <div fxFlex="20">
+                        <mat-selection-list [multiple]="false">
+                            <ng-container *ngFor="let itemCategory of items; let last = last">
+                                <div mat-subheader>{{ itemCategory.name }}</div>
+                                <mat-list-option *ngFor="let item of itemCategory.items"
+                                    (selectedChange)="currentItem = item"
+                                    [value]="item">{{ item.name }}</mat-list-option>
+                                <mat-divider *ngIf="!last" class="category-divider"></mat-divider>
+                            </ng-container>
+                        </mat-selection-list>
+                    </div>
+                    <div fxFlex="80">
+                        <app-item-detail
+                            *ngIf="currentItem !== null"
+                            [item]="currentItem"
+                            ></app-item-detail>
+                    </div>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

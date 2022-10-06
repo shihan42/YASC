@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { NGXLogger } from 'ngx-logger';
+import { Item, ItemCategory } from '../../../models/itemBrowser';
+import { ItemService } from '../../../services/item.service';
 
 
 @Component({
@@ -10,7 +12,11 @@ import { NGXLogger } from 'ngx-logger';
 })
 export class ItemsBrowserComponent implements OnInit
 {
+    items : ItemCategory[] = [];
+    currentItem : Item | null = null;
+
 	constructor(
+        private itemService : ItemService,
         private titleService: Title,
         private logger: NGXLogger
     )
@@ -20,5 +26,12 @@ export class ItemsBrowserComponent implements OnInit
     {
         this.titleService.setTitle('YASC - Items');
         this.logger.log('Items browser loaded');
+
+        this.retrieveItems();
+    }
+
+    retrieveItems(filter : string = "") : void
+    {
+        this.items = this.itemService.getItems(filter);
     }
 }
