@@ -10,6 +10,11 @@ const appRoutes: Routes = [
 		loadChildren: () => import('./features/auth/auth.module').then(m => m.AuthModule),
 	},
 	{
+		path: 'codex',
+		loadChildren: () => import('./features/codex/codex.module').then(m => m.CodexModule),
+		canActivate: [AuthGuard]
+	},
+	{
 		path: 'dashboard',
 		loadChildren: () => import('./features/dashboard/dashboard.module').then(m => m.DashboardModule),
 		canActivate: [AuthGuard]
@@ -46,7 +51,7 @@ const appRoutes: Routes = [
 	},
 	{
 		path: '**',
-		redirectTo: 'dashboard',
+		redirectTo: 'codex',
 		pathMatch: 'full'
 	}
 ];

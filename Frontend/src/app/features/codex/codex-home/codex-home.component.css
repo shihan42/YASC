@@ -1,0 +1,13 @@
+.subitem-link {
+    text-decoration: none !important;
+}
+
+.menu-item-card {
+    width: 300px;
+    max-width: 300px;
+}
+
+.menu-item-card:hover {
+    color: white;
+    background-color: #e88427
+}

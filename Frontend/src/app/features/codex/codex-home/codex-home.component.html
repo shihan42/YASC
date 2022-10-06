@@ -1,0 +1,51 @@
+<div class="container" fxLayout="row" fxLayoutAlign="center none">
+  <div fxFlex="95%">
+
+    <mat-grid-list cols="3" rowHeight="1:1">
+
+        <mat-grid-tile>
+            <a [routerLink]="['/codex/items']" class="subitem-link">
+                <mat-card class="menu-item-card">
+                    <mat-card-header>
+                        <mat-card-title>Items</mat-card-title>
+                    </mat-card-header>
+                    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+                    <mat-card-content>
+                        <p>Browse all produceable items</p>
+                    </mat-card-content>
+                </mat-card>
+            </a>
+        </mat-grid-tile>
+
+        <mat-grid-tile>
+            <a [routerLink]="['/codex/recipes']" class="subitem-link">
+                <mat-card class="menu-item-card">
+                    <mat-card-header>
+                        <mat-card-title>Recipes</mat-card-title>
+                    </mat-card-header>
+                    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+                    <mat-card-content>
+                        <p>Browse all recipes</p>
+                    </mat-card-content>
+                </mat-card>
+            </a>
+        </mat-grid-tile>
+        
+        <mat-grid-tile>
+            <a [routerLink]="['/codex/buildings']" class="subitem-link">
+                <mat-card class="menu-item-card">
+                    <mat-card-header>
+                        <mat-card-title>Buildings</mat-card-title>
+                    </mat-card-header>
+                    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+                    <mat-card-content>
+                        <p>Browse all factory buildings</p>
+                    </mat-card-content>
+                </mat-card>
+            </a>
+        </mat-grid-tile>
+
+    </mat-grid-list>
+
+  </div>
+</div>
