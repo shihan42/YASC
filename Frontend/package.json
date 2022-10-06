@@ -1,5 +1,5 @@
 {
-    "name": "YascFrontend",
+    "name": "yasc-frontend",
     "version": "0.0.0",
     "scripts": {
         "ng": "ng",
@@ -8,15 +8,15 @@
         "watch": "ng build --watch --configuration development",
         "lint": "ng lint",
         "test": "ng test",
-        "build-production": "ng build --configuration=production --base-href=/YascFrontend/"
+        "build-production": "ng build --configuration=production --base-href=/"
     },
     "private": true,
     "dependencies": {
         "@angular/animations": "^14.2.1",
+        "@angular/cdk": "^14.2.1",
         "@angular/common": "^14.2.1",
         "@angular/compiler": "^14.2.1",
         "@angular/core": "^14.2.1",
-        "@angular/cdk": "^14.2.1",
         "@angular/flex-layout": "^14.0.0-beta.40",
         "@angular/forms": "^14.2.1",
         "@angular/material": "^14.2.1",
@@ -24,7 +24,6 @@
         "@angular/platform-browser": "^14.2.1",
         "@angular/platform-browser-dynamic": "^14.2.1",
         "@angular/router": "^14.2.1",
-        "jwt-decode": "^3.1.2",
         "ngx-logger": "^5.0.7",
         "rxjs": "~7.5.0",
         "tslib": "^2.3.0",

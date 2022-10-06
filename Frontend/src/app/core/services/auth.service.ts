@@ -1,7 +1,6 @@
 import { Injectable, Inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { delay, map } from 'rxjs/operators';
-import * as jwt_decode from 'jwt-decode';
 import * as moment from 'moment';
 
 import { environment } from '../../../environments/environment';
@@ -24,7 +23,7 @@ export class AuthenticationService
             .pipe(delay(1000),
                 map((/*response*/) => {
                     // set token property
-                    // const decodedToken = jwt_decode(response['token']);
+                    // const decodedToken = decode(response['token']);
 
                     // store email and jwt token in local storage to keep user logged in between page refreshes
                     this.localStorage.setItem('currentUser', JSON.stringify({
