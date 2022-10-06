@@ -1,0 +1,1226 @@
+[
+  {
+    "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_Snow.Desc_Snow_C",
+    "name": "Actual Snow",
+    "category": "ficsmas",
+    "description": "It's snow. Not the nice, thick, crunchy kind though... more the disgustingly wet, slushy kind... Guess we can make stuff from it.",
+    "resourceSinkPoints": 1,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_5.Desc_SpaceElevatorPart_5_C",
+    "name": "Adaptive Control Unit",
+    "category": "special",
+    "description": "Project Part #5. Ship with the Space Elevator to complete phases of Project Assembly.",
+    "resourceSinkPoints": 86120,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Equipment/Decoration/Desc_CharacterRunStatue.Desc_CharacterRunStatue_C",
+    "name": "Adequate Pioneering",
+    "category": "statue",
+    "description": "The statue of the Running Character.",
+    "resourceSinkPoints": 0,
+    "stack": 1
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C",
+    "name": "AI Limiter",
+    "category": "electronic",
+    "description": "AI Limiters are super advanced electronics that are used to control AIs and keep them from evolving in malicious ways.",
+    "resourceSinkPoints": 920,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/AluminumPlate/Desc_AluminumPlate.Desc_AluminumPlate_C",
+    "name": "Alclad Aluminum Sheet",
+    "category": "standard",
+    "description": "Thin, lightweight, and highly durable sheets that are mainly used for products that require high heat conduction or a high specific strength.",
+    "resourceSinkPoints": 266,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/AlienProtein/Desc_AlienProtein.Desc_AlienProtein_C",
+    "name": "Alien Protein",
+    "category": "animal",
+    "description": "Ground down Alien Remains in a neat little package.<br />Used for medical purposed and to research alien organisms.",
+    "resourceSinkPoints": 0,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/Alumina/Desc_AluminaSolution.Desc_AluminaSolution_C",
+    "name": "Alumina Solution",
+    "category": "liquid",
+    "description": "Dissolved Alumina, extracted from Bauxite. Can be further refined into Aluminum Scrap for Aluminum Ingot production.",
+    "resourceSinkPoints": 20,
+    "stack": 0
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C",
+    "name": "Aluminum Casing",
+    "category": "standard",
+    "description": "A versatile container cast from Aluminum Ingots.",
+    "resourceSinkPoints": 393,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/AluminumIngot/Desc_AluminumIngot.Desc_AluminumIngot_C",
+    "name": "Aluminum Ingot",
+    "category": "ingot",
+    "description": "Aluminum Ingots are made from Aluminum Scrap, which is refined from Alumina Solution.<br />Used to produce specialized aluminum-based parts.",
+    "resourceSinkPoints": 131,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/AluminumScrap/Desc_AluminumScrap.Desc_AluminumScrap_C",
+    "name": "Aluminum Scrap",
+    "category": "mineral",
+    "description": "Aluminum Scrap is pure aluminum refined from Alumina. Can be smelted down to Aluminum Ingots for industrial usage.",
+    "resourceSinkPoints": 27,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_7.Desc_SpaceElevatorPart_7_C",
+    "name": "Assembly Director System",
+    "category": "special",
+    "description": "Project Part #6. Ship with the Space Elevator to complete phases of Project Assembly.<br /><br />This extremely fast and precise computing system is specifically designed to direct the Project Assembly: Assembly Phase.",
+    "resourceSinkPoints": 543632,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_3.Desc_SpaceElevatorPart_3_C",
+    "name": "Automated Wiring",
+    "category": "special",
+    "description": "Project Part #3. Ship with the Space Elevator to complete phases of Project Assembly.",
+    "resourceSinkPoints": 1440,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/Battery/Desc_Battery.Desc_Battery_C",
+    "name": "Battery",
+    "category": "industrial",
+    "description": "Primarily used as fuel for Drones and Vehicles.",
+    "resourceSinkPoints": 465,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/RawResources/OreBauxite/Desc_OreBauxite.Desc_OreBauxite_C",
+    "name": "Bauxite",
+    "category": "ore",
+    "description": "Bauxite is used to produce Alumina, which can be further refined into the Aluminum Scrap required to produce Aluminum Ingots.",
+    "resourceSinkPoints": 8,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Equipment/Beacon/BP_EquipmentDescriptorBeacon.BP_EquipmentDescriptorBeacon_C",
+    "name": "Beacon",
+    "category": "consumed",
+    "description": "PENDING REMOVAL<br />This item will (likely) be removed in a future update.<br /><br />Currently only used as an ingredient in an alternative recipe.",
+    "resourceSinkPoints": 320,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_GenericBiomass.Desc_GenericBiomass_C",
+    "name": "Biomass",
+    "category": "fuel",
+    "description": "Primarily used as fuel.<br />Biomass Burners and vehicles can use it for power.<br />Biomass is much more energy-efficient than raw biological matter.",
+    "resourceSinkPoints": 12,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/GunPowder/Desc_Gunpowder.Desc_Gunpowder_C",
+    "name": "Black Powder",
+    "category": "consumed",
+    "description": "An explosive powder that is commonly used to produce simple explosives.",
+    "resourceSinkPoints": 14,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall2.Desc_XmasBall2_C",
+    "name": "Blue FICSMAS Ornament",
+    "category": "ficsmas",
+    "description": "Again, used for making FICSMAS Decorations.",
+    "resourceSinkPoints": 1,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal.Desc_Crystal_C",
+    "name": "Blue Power Slug",
+    "category": "special",
+    "description": "A strange slug radiating a weak strange power.",
+    "resourceSinkPoints": 0,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
+    "name": "Cable",
+    "category": "electronic",
+    "description": "Used for crafting.<br />Primarily used to build power lines.",
+    "resourceSinkPoints": 24,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_CandyCane.Desc_CandyCane_C",
+    "name": "Candy Cane",
+    "category": "ficsmas",
+    "description": "A delicious Candy Cane to be enjoyed during the FICSMAS Holidays.<br />*Disclaimer: Can't be consumed...",
+    "resourceSinkPoints": 1,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/GoldIngot/Desc_GoldIngot.Desc_GoldIngot_C",
+    "name": "Caterium Ingot",
+    "category": "ingot",
+    "description": "Caterium Ingots are smelted from Caterium Ore. Caterium Ingots are mostly used for advanced electronics.",
+    "resourceSinkPoints": 42,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/RawResources/OreGold/Desc_OreGold.Desc_OreGold_C",
+    "name": "Caterium Ore",
+    "category": "ore",
+    "description": "Caterium Ore is smelted into Caterium Ingots. Caterium Ingots are mostly used for advanced electronics.",
+    "resourceSinkPoints": 7,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C",
+    "name": "Circuit Board",
+    "category": "electronic",
+    "description": "Circuit Boards are advanced electronics that are used in a plethora of different ways.",
+    "resourceSinkPoints": 696,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskCluster.Desc_NobeliskCluster_C",
+    "name": "Cluster Nobelisk",
+    "category": "ammo",
+    "description": "A Nobelisk that detonates into multiple smaller explosions. Practical when clearing out large areas of vegetation and other inconveniences.",
+    "resourceSinkPoints": 1376,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C",
+    "name": "Coal",
+    "category": "ore",
+    "description": "Mainly used as fuel for vehicles & coal generators and for steel production.",
+    "resourceSinkPoints": 3,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/ColorCartridge/Desc_ColorCartridge.Desc_ColorCartridge_C",
+    "name": "Color Cartridge",
+    "category": "consumed",
+    "description": "Used for applying Patterns to structures with the Customizer.<br /><br />(Patterns can be purchased in the AWESOME Shop.)",
+    "resourceSinkPoints": 10,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/CompactedCoal/Desc_CompactedCoal.Desc_CompactedCoal_C",
+    "name": "Compacted Coal",
+    "category": "fuel",
+    "description": "A much more efficient alternative for Coal. Used as fuel for vehicles & coal generators.",
+    "resourceSinkPoints": 28,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C",
+    "name": "Computer",
+    "category": "communication",
+    "description": "A Computer is a complex logic machine that is used to control advanced behaviour in machines.",
+    "resourceSinkPoints": 17260,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
+    "name": "Concrete",
+    "category": "mineral",
+    "description": "Used for building.<br />Good for stable foundations.",
+    "resourceSinkPoints": 12,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Equipment/Decoration/Desc_SpaceGiraffeStatue.Desc_SpaceGiraffeStatue_C",
+    "name": "Confusing Creature",
+    "category": "statue",
+    "description": "The statue of the Space Giraffe.",
+    "resourceSinkPoints": 0,
+    "stack": 1
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C",
+    "name": "Cooling System",
+    "category": "industrial",
+    "description": "Used to keep temperatures of advanced parts and buildings from exceeding to inefficient levels.",
+    "resourceSinkPoints": 12006,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall3.Desc_XmasBall3_C",
+    "name": "Copper FICSMAS Ornament",
+    "category": "ficsmas",
+    "description": "Still used for making FICSMAS Decorations.",
+    "resourceSinkPoints": 1,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/CopperIngot/Desc_CopperIngot.Desc_CopperIngot_C",
+    "name": "Copper Ingot",
+    "category": "ingot",
+    "description": "Used for crafting.<br />Crafted into the most basic parts.",
+    "resourceSinkPoints": 6,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/RawResources/OreCopper/Desc_OreCopper.Desc_OreCopper_C",
+    "name": "Copper Ore",
+    "category": "ore",
+    "description": "Used for crafting.<br />Basic resource mainly used for electricity.",
+    "resourceSinkPoints": 3,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/CopperDust/Desc_CopperDust.Desc_CopperDust_C",
+    "name": "Copper Powder",
+    "category": "mineral",
+    "description": "Ground down Copper Ingots.<br />The high natural density of Copper, combined with the granularity of the powder, make this part fit for producing Nuclear Pasta in the Particle Accelerator.",
+    "resourceSinkPoints": 72,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C",
+    "name": "Copper Sheet",
+    "category": "standard",
+    "description": "Used for crafting.<br />Primarily used for pipelines due to its high corrosion resistance.",
+    "resourceSinkPoints": 24,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C",
+    "name": "Crude Oil",
+    "category": "liquid",
+    "description": "Crude Oil is refined into all kinds of Oil-based resources, like Fuel and Plastic.",
+    "resourceSinkPoints": 30,
+    "stack": 0
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C",
+    "name": "Crystal Oscillator",
+    "category": "communication",
+    "description": "A crystal oscillator is an electronic oscillator circuit that uses the mechanical resonance of a vibrating crystal to create an electrical signal with a precise frequency.",
+    "resourceSinkPoints": 3072,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/ElectromagneticControlRod/Desc_ElectromagneticControlRod.Desc_ElectromagneticControlRod_C",
+    "name": "Electromagnetic Control Rod",
+    "category": "nuclear",
+    "description": "Control Rods regulate power output via electromagnetism.",
+    "resourceSinkPoints": 2560,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/FluidCanister/Desc_FluidCanister.Desc_FluidCanister_C",
+    "name": "Empty Canister",
+    "category": "container",
+    "description": "Used to package fluids for transportation.",
+    "resourceSinkPoints": 60,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/GasTank/Desc_GasTank.Desc_GasTank_C",
+    "name": "Empty Fluid Tank",
+    "category": "container",
+    "description": "Used to package gases and volatile liquids for transportation.",
+    "resourceSinkPoints": 225,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/SteelPlateReinforced/Desc_SteelPlateReinforced.Desc_SteelPlateReinforced_C",
+    "name": "Encased Industrial Beam",
+    "category": "standard",
+    "description": "Encased Industrial Beams utilizes the compressive strength of concrete and tensile strength of steel simultaneously.<br />Mostly used as a stable basis for constructing buildings.",
+    "resourceSinkPoints": 632,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/PlutoniumCell/Desc_PlutoniumCell.Desc_PlutoniumCell_C",
+    "name": "Encased Plutonium Cell",
+    "category": "nuclear",
+    "description": "Plutonium Cells are concrete encased Plutonium Pellets.<br />Used to produce Plutonium Fuel Rods for Nuclear Power production.<br /><br />Caution: Moderately Radioactive.",
+    "resourceSinkPoints": 0,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/UraniumCell/Desc_UraniumCell.Desc_UraniumCell_C",
+    "name": "Encased Uranium Cell",
+    "category": "nuclear",
+    "description": "Uranium Cells are produced from Uranium Ore.<br />Used to produce Uranium Fuel Rods for Nuclear Power production.<br /><br />Caution: Mildly Radioactive.",
+    "resourceSinkPoints": 147,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Equipment/RebarGun/Ammo/Desc_Rebar_Explosive.Desc_Rebar_Explosive_C",
+    "name": "Explosive Rebar",
+    "category": "ammo",
+    "description": "Explodes on impact, dealing heavy damage.",
+    "resourceSinkPoints": 360,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Fabric.Desc_Fabric_C",
+    "name": "Fabric",
+    "category": "standard",
+    "description": "Used for equipment crafting.<br />Flexible but durable fabric.",
+    "resourceSinkPoints": 140,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Events/Christmas/Fireworks/Desc_Fireworks_Projectile_02.Desc_Fireworks_Projectile_02_C",
+    "name": "Fancy Fireworks",
+    "category": "ficsmas",
+    "description": "Fireworks are produced from random ingredients. Primarily used for having a good time.<br /><br />Alternative Nobelisk Ammo. Use G to swap!",
+    "resourceSinkPoints": 14,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
+    "name": "FICSIT Coupon",
+    "category": "special",
+    "description": "A special FICSIT bonus program Coupon, obtained through the AWESOME Sink. Can be redeemed in the AWESOME Shop for bonus milestones and rewards.",
+    "resourceSinkPoints": 0,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBow.Desc_XmasBow_C",
+    "name": "FICSMAS Bow",
+    "category": "ficsmas",
+    "description": "A fancy Bow, maybe someone can wear this? You certainly can't! Probably, some parts and decorations can be made from this.",
+    "resourceSinkPoints": 1,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasWreath.Desc_XmasWreath_C",
+    "name": "FICSMAS Decoration",
+    "category": "ficsmas",
+    "description": "A decoration used to make decorations. Its use cases are questionable.",
+    "resourceSinkPoints": 1,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_Gift.Desc_Gift_C",
+    "name": "FICSMAS Gift",
+    "category": "ficsmas",
+    "description": "Special FICSMAS buildings and parts can be obtained and produced from this FICSIT Holiday present.<br /><br />*Watch the sky for deliveries from orbit!",
+    "resourceSinkPoints": 1,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBallCluster.Desc_XmasBallCluster_C",
+    "name": "FICSMAS Ornament Bundle",
+    "category": "ficsmas",
+    "description": "All the FICSMAS Ornaments smashed together to make even more FICSMAS Decorations!",
+    "resourceSinkPoints": 1,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBranch.Desc_XmasBranch_C",
+    "name": "FICSMAS Tree Branch",
+    "category": "ficsmas",
+    "description": "A special Tree Branch, used to produce parts and buildings during the FICSMAS Event.",
+    "resourceSinkPoints": 1,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasStar.Desc_XmasStar_C",
+    "name": "FICSMAS Wonder Star",
+    "category": "ficsmas",
+    "description": "This special FICSMAS Star signifies the productivity of FICSIT all across the universe. It also signifies the fact that you have nearly completed the Holiday Event, so it's time to get back to work.",
+    "resourceSinkPoints": 1,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_FlowerPetals.Desc_FlowerPetals_C",
+    "name": "Flower Petals",
+    "category": "fuel",
+    "description": "Used for crafting.<br />Colorful native flower petals.",
+    "resourceSinkPoints": 10,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/Fuel/Desc_LiquidFuel.Desc_LiquidFuel_C",
+    "name": "Fuel",
+    "category": "liquid",
+    "description": "Fuel can be used to generate power or packaged to be used as fuel for Vehicles or the Jetpack.",
+    "resourceSinkPoints": 75,
+    "stack": 0
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C",
+    "name": "Fused Modular Frame",
+    "category": "standard",
+    "description": "A corrosion resistant, nitride hardened, highly robust, yet lightweight modular frame.",
+    "resourceSinkPoints": 62840,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/Filter/Desc_Filter.Desc_Filter_C",
+    "name": "Gas Filter",
+    "category": "consumed",
+    "description": "Used in the Gas Mask to filter out toxics and pollutants from the air.",
+    "resourceSinkPoints": 830,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskGas.Desc_NobeliskGas_C",
+    "name": "Gas Nobelisk",
+    "category": "ammo",
+    "description": "Instead of a regular explosion, this Nobelisk creates a deadly gas cloud.",
+    "resourceSinkPoints": 544,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Equipment/Decoration/Desc_GoldenNut_Statue.Desc_GoldenNut_Statue_C",
+    "name": "Golden Nut",
+    "category": "statue",
+    "description": "The statue of the Golden Nut.",
+    "resourceSinkPoints": 0,
+    "stack": 1
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/AluminumPlateReinforced/Desc_AluminumPlateReinforced.Desc_AluminumPlateReinforced_C",
+    "name": "Heat Sink",
+    "category": "industrial",
+    "description": "Used to dissipate heat faster.",
+    "resourceSinkPoints": 2804,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C",
+    "name": "Heavy Modular Frame",
+    "category": "standard",
+    "description": "A more robust multi-purpose frame.",
+    "resourceSinkPoints": 11520,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/HeavyOilResidue/Desc_HeavyOilResidue.Desc_HeavyOilResidue_C",
+    "name": "Heavy Oil Residue",
+    "category": "liquid",
+    "description": "A by-product of Plastic and Rubber production. Can be further refined into Fuel and Petroleum Coke.",
+    "resourceSinkPoints": 30,
+    "stack": 0
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C",
+    "name": "High-Speed Connector",
+    "category": "electronic",
+    "description": "The high-speed connector connects several cables and wires in a very efficient way. Uses a standard pattern so its applications are many and varied.",
+    "resourceSinkPoints": 3776,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Equipment/Rifle/Ammo/Desc_CartridgeSmartProjectile.Desc_CartridgeSmartProjectile_C",
+    "name": "Homing Rifle Ammo",
+    "category": "ammo",
+    "description": "The bullet guidance system, build into this ammunition, allows it to accurately hit any target within the reticle area.<br />Especially useful when dealing with agile threats, or for Pioneers who can't be bothered to aim properly.",
+    "resourceSinkPoints": 855,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/IodineInfusedFilter/Desc_HazmatFilter.Desc_HazmatFilter_C",
+    "name": "Iodine Infused Filter",
+    "category": "consumed",
+    "description": "Used in the Hazmat Suit to absorb radioactive particles.",
+    "resourceSinkPoints": 2718,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall4.Desc_XmasBall4_C",
+    "name": "Iron FICSMAS Ornament",
+    "category": "ficsmas",
+    "description": "This super special... nope... still just used for making FICSMAS Decorations.",
+    "resourceSinkPoints": 1,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C",
+    "name": "Iron Ingot",
+    "category": "ingot",
+    "description": "Used for crafting.<br />Crafted into the most basic parts.",
+    "resourceSinkPoints": 2,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/RawResources/OreIron/Desc_OreIron.Desc_OreIron_C",
+    "name": "Iron Ore",
+    "category": "ore",
+    "description": "Used for crafting.<br />The most essential basic resource.",
+    "resourceSinkPoints": 1,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
+    "name": "Iron Plate",
+    "category": "standard",
+    "description": "Used for crafting.<br />One of the most basic parts.",
+    "resourceSinkPoints": 6,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/SpikedRebar/Desc_SpikedRebar.Desc_SpikedRebar_C",
+    "name": "Iron Rebar",
+    "category": "ammo",
+    "description": "A simple iron rebar that can be shot using the Rebar Gun, for self-defense purposes.",
+    "resourceSinkPoints": 8,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
+    "name": "Iron Rod",
+    "category": "standard",
+    "description": "Used for crafting.<br />One of the most basic parts.",
+    "resourceSinkPoints": 4,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Leaves.Desc_Leaves_C",
+    "name": "Leaves",
+    "category": "fuel",
+    "description": "Primarily used as fuel.<br />Biomass Burners and vehicles can use it for power.",
+    "resourceSinkPoints": 3,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C",
+    "name": "Limestone",
+    "category": "ore",
+    "description": "Used for crafting.<br />Basic resource mainly used for stable foundations.",
+    "resourceSinkPoints": 2,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_LiquidBiofuel.Desc_LiquidBiofuel_C",
+    "name": "Liquid Biofuel",
+    "category": "liquid",
+    "description": "Liquid Biofuel can be used to generate power or packaged to be used as fuel for Vehicles.",
+    "resourceSinkPoints": 261,
+    "stack": 0
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Equipment/Decoration/Desc_DoggoStatue.Desc_DoggoStatue_C",
+    "name": "Lizard Doggo Statue",
+    "category": "statue",
+    "description": "The statue of the Lizard Doggo.",
+    "resourceSinkPoints": 0,
+    "stack": 1
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_6.Desc_SpaceElevatorPart_6_C",
+    "name": "Magnetic Field Generator",
+    "category": "special",
+    "description": "Project Part #7. Ship with the Space Elevator to complete phases of Project Assembly.<br /><br />These modular generators use superconducting magnets and vast amounts of electricity to produce an easily expandable and powerful magnetic field.",
+    "resourceSinkPoints": 15650,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_4.Desc_SpaceElevatorPart_4_C",
+    "name": "Modular Engine",
+    "category": "special",
+    "description": "Project Part #4. Ship with the Space Elevator to complete phases of Project Assembly.",
+    "resourceSinkPoints": 9960,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
+    "name": "Modular Frame",
+    "category": "standard",
+    "description": "Used for crafting.<br />Multi-purpose building block.",
+    "resourceSinkPoints": 408,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C",
+    "name": "Motor",
+    "category": "industrial",
+    "description": "The Motor creates a mechanical force that is used to move things from machines to vehicles.",
+    "resourceSinkPoints": 1520,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Mycelia.Desc_Mycelia_C",
+    "name": "Mycelia",
+    "category": "fuel",
+    "description": "Used for crafting.<br />Biomass Burners and vehicles can use it for power.",
+    "resourceSinkPoints": 10,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/NitricAcid/Desc_NitricAcid.Desc_NitricAcid_C",
+    "name": "Nitric Acid",
+    "category": "liquid",
+    "description": "Produced by reaction of Nitrogen Gas with Water. Its high corrosiveness and oxidizing properties make it an excellent choice for refinement and fuel production processes.",
+    "resourceSinkPoints": 94,
+    "stack": 0
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/RawResources/NitrogenGas/Desc_NitrogenGas.Desc_NitrogenGas_C",
+    "name": "Nitrogen Gas",
+    "category": "gas",
+    "description": "Nitrogen can be used in a variety of ways, such as metallurgy, cooling, and Nitric Acid production. On Massage-2(AB)b, it can be extracted from underground gas wells.",
+    "resourceSinkPoints": 10,
+    "stack": 0
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/NobeliskExplosive/Desc_NobeliskExplosive.Desc_NobeliskExplosive_C",
+    "name": "Nobelisk",
+    "category": "ammo",
+    "description": "A simple explosive, useful for clearing boulders, vegetation, and other obstacles.",
+    "resourceSinkPoints": 152,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/Non-FissibleUranium/Desc_NonFissibleUranium.Desc_NonFissibleUranium_C",
+    "name": "Non-fissile Uranium",
+    "category": "nuclear",
+    "description": "The isotope Uranium-238 is non-fissile, meaning it cannot be used for nuclear fission. It can, however, be conversed into fissile Plutonium in the Particle Accelerator.<br /><br />Caution: Mildly Radioactive.",
+    "resourceSinkPoints": 0,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_9.Desc_SpaceElevatorPart_9_C",
+    "name": "Nuclear Pasta",
+    "category": "special",
+    "description": "Project Part #9. Ship with the Space Elevator to complete phases of Project Assembly.<br />Power Usage: 500-1500 MW (1000 MW average).<br /><br />Nuclear Pasta is extremely dense degenerate matter, formed when extreme pressure forces protons and electrons together into neutrons. It is theorized to exist naturally within the crust of neutron stars.",
+    "resourceSinkPoints": 543424,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskNuke.Desc_NobeliskNuke_C",
+    "name": "Nuke Nobelisk",
+    "category": "ammo",
+    "description": "This Nobelisk uses a nuclear fission reaction to generate a massive explosion.<br /><br />WARNING: Ensure all FICSIT property is clear of the blast zone before detonation.",
+    "resourceSinkPoints": 19600,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/AlienDNACapsule/Desc_AlienDNACapsule.Desc_AlienDNACapsule_C",
+    "name": "Organic Data Capsule",
+    "category": "animal",
+    "description": "This data capsule translates organic chemicals into readable alien genetics information.<br />Used for researching alien organisms.",
+    "resourceSinkPoints": 0,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/Alumina/Desc_PackagedAlumina.Desc_PackagedAlumina_C",
+    "name": "Packaged Alumina Solution",
+    "category": "container",
+    "description": "Alumina Solution, packaged for alternative transport.",
+    "resourceSinkPoints": 160,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/Fuel/Desc_Fuel.Desc_Fuel_C",
+    "name": "Packaged Fuel",
+    "category": "fuel",
+    "description": "Fuel, packaged for alternative transport. Can be used as fuel for Vehicles or the Jetpack.",
+    "resourceSinkPoints": 270,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/HeavyOilResidue/Desc_PackagedOilResidue.Desc_PackagedOilResidue_C",
+    "name": "Packaged Heavy Oil Residue",
+    "category": "fuel",
+    "description": "Heavy Oil Residue, packaged for alternative transport. Can be used as fuel for Vehicles.",
+    "resourceSinkPoints": 180,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_PackagedBiofuel.Desc_PackagedBiofuel_C",
+    "name": "Packaged Liquid Biofuel",
+    "category": "fuel",
+    "description": "Liquid Biofuel, packaged for alternative transport. Can be used as fuel for Vehicles.",
+    "resourceSinkPoints": 370,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/NitricAcid/Desc_PackagedNitricAcid.Desc_PackagedNitricAcid_C",
+    "name": "Packaged Nitric Acid",
+    "category": "container",
+    "description": "Nitric Acid, packaged for alternative transport.",
+    "resourceSinkPoints": 412,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/PackagedNitrogen/Desc_PackagedNitrogenGas.Desc_PackagedNitrogenGas_C",
+    "name": "Packaged Nitrogen Gas",
+    "category": "container",
+    "description": "Nitrogen Gas, packaged for alternative transport.",
+    "resourceSinkPoints": 312,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_PackagedOil.Desc_PackagedOil_C",
+    "name": "Packaged Oil",
+    "category": "fuel",
+    "description": "Crude Oil, packaged for alternative transport. Can be used as fuel for Vehicles.",
+    "resourceSinkPoints": 180,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/SulfuricAcid/Desc_PackagedSulfuricAcid.Desc_PackagedSulfuricAcid_C",
+    "name": "Packaged Sulfuric Acid",
+    "category": "container",
+    "description": "Sulfuric Acid, packaged for alternative transport.",
+    "resourceSinkPoints": 152,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/Turbofuel/Desc_TurboFuel.Desc_TurboFuel_C",
+    "name": "Packaged Turbofuel",
+    "category": "fuel",
+    "description": "Turbofuel, packaged for alternative transport. Can be used as fuel for Vehicles.",
+    "resourceSinkPoints": 570,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/RawResources/Water/Desc_PackagedWater.Desc_PackagedWater_C",
+    "name": "Packaged Water",
+    "category": "container",
+    "description": "Water, packaged for alternative transport.",
+    "resourceSinkPoints": 130,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/PetroleumCoke/Desc_PetroleumCoke.Desc_PetroleumCoke_C",
+    "name": "Petroleum Coke",
+    "category": "mineral",
+    "description": "Used for crafting.<br />A carbon-rich material distilled from Heavy Oil Residue.<br />Used as a less efficient coal replacement or for aluminum refinement.",
+    "resourceSinkPoints": 20,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
+    "name": "Plastic",
+    "category": "standard",
+    "description": "A versatile and easy to manufacture material that can be used for a lot of things.",
+    "resourceSinkPoints": 75,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/PlutoniumFuelRods/Desc_PlutoniumFuelRod.Desc_PlutoniumFuelRod_C",
+    "name": "Plutonium Fuel Rod",
+    "category": "fuel",
+    "description": "Used as fuel for the Nuclear Power Plant.<br /><br />Caution: Produces radioactive Plutonium Waste when consumed.<br />Caution: HIGHLY Radioactive.",
+    "resourceSinkPoints": 153184,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/PlutoniumPellet/Desc_PlutoniumPellet.Desc_PlutoniumPellet_C",
+    "name": "Plutonium Pellet",
+    "category": "nuclear",
+    "description": "Produced in the Particle Accelerator through conversion of Non-fissile Uranium.<br />Used to produce Encased Plutonium Cells for Plutonium Fuel Rods.<br /><br />Power Usage: 250-750 MW (500 MW average).<br />Caution: Moderately Radioactive.",
+    "resourceSinkPoints": 0,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/NuclearWaste/Desc_PlutoniumWaste.Desc_PlutoniumWaste_C",
+    "name": "Plutonium Waste",
+    "category": "waste",
+    "description": "The by-product of consuming Plutonium Fuel Rods in the Nuclear Power Plant.<br />Needs to be stored in a safe location. Handle with caution.<br /><br />Caution: EXTREMELY Radioactive.",
+    "resourceSinkPoints": 0,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/PolymerResin/Desc_PolymerResin.Desc_PolymerResin_C",
+    "name": "Polymer Resin",
+    "category": "mineral",
+    "description": "Used for crafting.<br />A by-product of oil refinement into fuel. Commonly used to manufacture plastics.",
+    "resourceSinkPoints": 12,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C",
+    "name": "Power Shard",
+    "category": "special",
+    "description": "Mucus from the power slugs compressed into a solid crystal-like shard.<br />It radiates a strange power.",
+    "resourceSinkPoints": 0,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/PressureConversionCube/Desc_PressureConversionCube.Desc_PressureConversionCube_C",
+    "name": "Pressure Conversion Cube",
+    "category": "container",
+    "description": "Converts outgoing force into internal pressure. Required to contain unstable, high-energy matter.",
+    "resourceSinkPoints": 257312,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Equipment/Decoration/Desc_CharacterClap_Statue.Desc_CharacterClap_Statue_C",
+    "name": "Pretty Good Pioneering",
+    "category": "statue",
+    "description": "The statue of the Clapping Character.",
+    "resourceSinkPoints": 0,
+    "stack": 1
+  },
+  {
+    "className": "/Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskShockwave.Desc_NobeliskShockwave_C",
+    "name": "Pulse Nobelisk",
+    "category": "ammo",
+    "description": "Instead of a regular explosion, this Nobelisk generates a powerful shockwave.",
+    "resourceSinkPoints": 1533,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal_mk3.Desc_Crystal_mk3_C",
+    "name": "Purple Power Slug",
+    "category": "special",
+    "description": "A strange slug radiating a powerful strange power.",
+    "resourceSinkPoints": 0,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/ComputerQuantum/Desc_ComputerQuantum.Desc_ComputerQuantum_C",
+    "name": "Quantum Computer",
+    "category": "communication",
+    "description": "Uses Quantum bits instead of normal bits which makes it much faster than a treaditional computer.",
+    "resourceSinkPoints": 0,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/QuartzCrystal/Desc_QuartzCrystal.Desc_QuartzCrystal_C",
+    "name": "Quartz Crystal",
+    "category": "mineral",
+    "description": "Derived from Raw Quartz. Used in the production of advanced radar technology and high-quality display screens.",
+    "resourceSinkPoints": 50,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
+    "name": "Quickwire",
+    "category": "electronic",
+    "description": "Caterium's high conductivity and resistance to corrosion makes it ideal for small, advanced electronics.",
+    "resourceSinkPoints": 17,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/ModularFrameLightweight/Desc_ModularFrameLightweight.Desc_ModularFrameLightweight_C",
+    "name": "Radio Control Unit",
+    "category": "communication",
+    "description": "Enhances and directs radio signals.",
+    "resourceSinkPoints": 19600,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/RawResources/RawQuartz/Desc_RawQuartz.Desc_RawQuartz_C",
+    "name": "Raw Quartz",
+    "category": "ore",
+    "description": "Raw Quartz can be processed into Quartz Crystals and Silica, which both offer a variety of applications.",
+    "resourceSinkPoints": 15,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall1.Desc_XmasBall1_C",
+    "name": "Red FICSMAS Ornament",
+    "category": "ficsmas",
+    "description": "Used for making FICSMAS Decorations.",
+    "resourceSinkPoints": 1,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
+    "name": "Reinforced Iron Plate",
+    "category": "standard",
+    "description": "Used for crafting.<br />A sturdier and more durable Iron Plate.",
+    "resourceSinkPoints": 120,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/CartridgeStandard/Desc_CartridgeStandard.Desc_CartridgeStandard_C",
+    "name": "Rifle Ammo",
+    "category": "ammo",
+    "description": "Standard issue Rifle ammunition, useful for establishing dominance.",
+    "resourceSinkPoints": 25,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
+    "name": "Rotor",
+    "category": "industrial",
+    "description": "Used for crafting.<br />The moving parts of a motor.",
+    "resourceSinkPoints": 140,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C",
+    "name": "Rubber",
+    "category": "standard",
+    "description": "Rubber is a material that is very flexible and has a lot of friction.",
+    "resourceSinkPoints": 60,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/RawResources/SAM/Desc_SAM.Desc_SAM_C",
+    "name": "S.A.M. Ore",
+    "category": "ore",
+    "description": "Strange Alien Metal that glistens with new possibilities.",
+    "resourceSinkPoints": 0,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Equipment/Decoration/Desc_CharacterSpin_Statue.Desc_CharacterSpin_Statue_C",
+    "name": "Satisfactory Pioneering",
+    "category": "statue",
+    "description": "The statue of the Character Spinning the Build Gun.",
+    "resourceSinkPoints": 0,
+    "stack": 1
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
+    "name": "Screw",
+    "category": "standard",
+    "description": "Used for crafting.<br />One of the most basic parts.",
+    "resourceSinkPoints": 2,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Equipment/RebarGun/Ammo/Desc_Rebar_Spreadshot.Desc_Rebar_Spreadshot_C",
+    "name": "Shatter Rebar",
+    "category": "ammo",
+    "description": "This rebar fractures when shot, launching deadly debris in a wide spread but with limited range.",
+    "resourceSinkPoints": 332,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/Silica/Desc_Silica.Desc_Silica_C",
+    "name": "Silica",
+    "category": "mineral",
+    "description": "Derived from Raw Quartz. Commonly used to create glass structures, advanced refinement processes, and alternative production of electronics.",
+    "resourceSinkPoints": 20,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Equipment/Decoration/Desc_Hog_Statue.Desc_Hog_Statue_C",
+    "name": "Silver Hog",
+    "category": "statue",
+    "description": "The statue of the Silver Pouncing Hog. Perfect as a hood ornament.",
+    "resourceSinkPoints": 0,
+    "stack": 1
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_1.Desc_SpaceElevatorPart_1_C",
+    "name": "Smart Plating",
+    "category": "special",
+    "description": "Project Part #1. Ship with the Space Elevator to complete phases of Project Assembly.",
+    "resourceSinkPoints": 520,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/GunPowder/Desc_GunpowderMK2.Desc_GunpowderMK2_C",
+    "name": "Smokeless Powder",
+    "category": "consumed",
+    "description": "An explosive powder that is commonly used to produce modern firearms.",
+    "resourceSinkPoints": 58,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/SnowballProjectile/Desc_SnowballProjectile.Desc_SnowballProjectile_C",
+    "name": "Snowball",
+    "category": "ficsmas",
+    "description": "Compressed dihydrogen monoxide crystals.<br /><br />Alternative Nobelisk Ammo. Use G to swap!",
+    "resourceSinkPoints": 1,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_Biofuel.Desc_Biofuel_C",
+    "name": "Solid Biofuel",
+    "category": "fuel",
+    "description": "The most energy-efficient form of solid biomass. Can be used as fuel for the Chainsaw.",
+    "resourceSinkPoints": 48,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Events/Christmas/Fireworks/Desc_Fireworks_Projectile_03.Desc_Fireworks_Projectile_03_C",
+    "name": "Sparkly Fireworks",
+    "category": "ficsmas",
+    "description": "Goes Pfffeeeeew... BOOM! *Sparkle*<br /><br />Alternative Nobelisk Ammo. Use G to swap!",
+    "resourceSinkPoints": 10,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/Stator/Desc_Stator.Desc_Stator_C",
+    "name": "Stator",
+    "category": "industrial",
+    "description": "Used for crafting.<br />The static parts of a motor.",
+    "resourceSinkPoints": 240,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
+    "name": "Steel Beam",
+    "category": "standard",
+    "description": "Steel Beams are used most often when constructing a little more advanced buildings.",
+    "resourceSinkPoints": 64,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C",
+    "name": "Steel Ingot",
+    "category": "ingot",
+    "description": "Steel Ingots are made from Iron Ore that's been smelted with Coal. They are made into several parts used in building construction.",
+    "resourceSinkPoints": 8,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C",
+    "name": "Steel Pipe",
+    "category": "standard",
+    "description": "Steel Pipes are used most often when constructing a little more advanced buildings.",
+    "resourceSinkPoints": 24,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Equipment/RebarGun/Ammo/Desc_Rebar_Stunshot.Desc_Rebar_Stunshot_C",
+    "name": "Stun Rebar",
+    "category": "ammo",
+    "description": "Electrocutes the target on impact, stunning it for a short time.<br /><br />Stun duration: 5 seconds",
+    "resourceSinkPoints": 186,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C",
+    "name": "Sulfur",
+    "category": "ore",
+    "description": "Sulfur is primarily used for Black Powder.",
+    "resourceSinkPoints": 11,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/SulfuricAcid/Desc_SulfuricAcid.Desc_SulfuricAcid_C",
+    "name": "Sulfuric Acid",
+    "category": "liquid",
+    "description": "A mineral acid produced by combining Sulfur and Water in a complex reaction. Primarily used in refinement processes and Battery production.",
+    "resourceSinkPoints": 16,
+    "stack": 0
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C",
+    "name": "Supercomputer",
+    "category": "communication",
+    "description": "The supercomputer is the next-gen version of the computer.",
+    "resourceSinkPoints": 99576,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/QuantumOscillator/Desc_QuantumOscillator.Desc_QuantumOscillator_C",
+    "name": "Superposition Oscillator",
+    "category": "communication",
+    "description": "A superposition oscillator is an oscillator circuit that uses the mechanical resonance of a vibrating crystal to create a string vibration with a precise frequancy. Often used in teleportation technology and dimensional manipulation.",
+    "resourceSinkPoints": 0,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Events/Christmas/Fireworks/Desc_Fireworks_Projectile_01.Desc_Fireworks_Projectile_01_C",
+    "name": "Sweet Fireworks",
+    "category": "ficsmas",
+    "description": "Merry FICSMAS and a Happy New Year!<br /><br />Alternative Nobelisk Ammo. Use G to swap!",
+    "resourceSinkPoints": 18,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_8.Desc_SpaceElevatorPart_8_C",
+    "name": "Thermal Propulsion Rocket",
+    "category": "special",
+    "description": "Project Part #8. Ship with the Space Elevator to complete phases of Project Assembly.<br /><br />Uses extreme heat to produce the high pressure plasma required to get Project Assembly into motion.",
+    "resourceSinkPoints": 732956,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C",
+    "name": "Turbo Motor",
+    "category": "industrial",
+    "description": "The Turbo Motor is a more complex, and more powerful, version of the regular Motor.",
+    "resourceSinkPoints": 242720,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Equipment/Rifle/Ammo/Desc_CartridgeChaos.Desc_CartridgeChaos_C",
+    "name": "Turbo Rifle Ammo",
+    "category": "ammo",
+    "description": "Lightweight, compact, and volatile. These rounds provide extreme capacity and fire rates, at the cost of accuracy.",
+    "resourceSinkPoints": 120,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/Turbofuel/Desc_LiquidTurboFuel.Desc_LiquidTurboFuel_C",
+    "name": "Turbofuel",
+    "category": "liquid",
+    "description": "A more efficient alternative to Fuel. Can be used to generate power or packaged to be used as fuel for Vehicles.",
+    "resourceSinkPoints": 225,
+    "stack": 0
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/RawResources/OreUranium/Desc_OreUranium.Desc_OreUranium_C",
+    "name": "Uranium",
+    "category": "ore",
+    "description": "Uranium is a radioactive element.<br />Used to produce Encased Uranium Cells for Uranium Fuel Rods.<br /><br />Caution: Moderately Radioactive.",
+    "resourceSinkPoints": 35,
+    "stack": 100
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/NuclearFuelRod/Desc_NuclearFuelRod.Desc_NuclearFuelRod_C",
+    "name": "Uranium Fuel Rod",
+    "category": "fuel",
+    "description": "Used as fuel for the Nuclear Power Plant.<br /><br />Caution: Produces radioactive Uranium Waste when consumed.<br />Caution: Moderately Radioactive.",
+    "resourceSinkPoints": 44092,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/NuclearWaste/Desc_NuclearWaste.Desc_NuclearWaste_C",
+    "name": "Uranium Waste",
+    "category": "waste",
+    "description": "The by-product of consuming Uranium Fuel Rods in the Nuclear Power Plant.<br />Non-fissible Uranium can be extracted. Handle with caution.<br /><br />Caution: HIGHLY Radioactive.",
+    "resourceSinkPoints": 0,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_2.Desc_SpaceElevatorPart_2_C",
+    "name": "Versatile Framework",
+    "category": "special",
+    "description": "Project Part #2. Ship with the Space Elevator to complete phases of Project Assembly.",
+    "resourceSinkPoints": 1176,
+    "stack": 50
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
+    "name": "Water",
+    "category": "liquid",
+    "description": "It's water.",
+    "resourceSinkPoints": 5,
+    "stack": 0
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
+    "name": "Wire",
+    "category": "electronic",
+    "description": "Used for crafting.<br />One of the most basic parts.",
+    "resourceSinkPoints": 6,
+    "stack": 500
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Wood.Desc_Wood_C",
+    "name": "Wood",
+    "category": "fuel",
+    "description": "Primarily used as fuel.<br />Biomass Burners and vehicles can use it for power.",
+    "resourceSinkPoints": 30,
+    "stack": 200
+  },
+  {
+    "className": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal_mk2.Desc_Crystal_mk2_C",
+    "name": "Yellow Power Slug",
+    "category": "special",
+    "description": "A strange slug radiating a strange power.",
+    "resourceSinkPoints": 0,
+    "stack": 50
+  }
+]
