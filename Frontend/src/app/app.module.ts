@@ -12,7 +12,7 @@ import { CustomMaterialModule } from './custom-material/custom-material.module';
 import { AppRoutingModule } from './app-routing.module';
 import { environment } from '../environments/environment';
 import { reducers, metaReducers } from './state';
-import { ItemsEffects } from './state/items.effects';
+import { ItemsEffects } from './state/itemsState/items.effects';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 
 
