@@ -1,6 +1,7 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { NGXLogger } from 'ngx-logger';
+
 import { Item } from '../../../models/items';
 
 
@@ -9,10 +10,12 @@ import { Item } from '../../../models/items';
     templateUrl: './item-detail.component.html',
     styleUrls: [ './item-detail.component.css' ]
 })
-export class ItemDetailComponent implements OnInit
+export class ItemDetailComponent implements OnChanges
 {
     @Input()
     item : Item | null = null;
+
+    url : string = "";
 
 	constructor(
         private titleService: Title,
@@ -20,9 +23,17 @@ export class ItemDetailComponent implements OnInit
     )
     {}
 
-    ngOnInit(): void
+    ngOnChanges(_changes : SimpleChanges): void
     {
-        this.titleService.setTitle(`YASC - Item ${this.item?.name}`);
-        this.logger.log(`Item detail for item ${this.item?.className} loaded`);
+        if (this.item !== null && this.item !== undefined)
+        {
+            this.titleService.setTitle(`${this.item?.name} - Item Browser - YASC`);
+            this.logger.log(`Item detail for item ${this.item?.className} loaded`);
+        }
+
+        if (this.item !== null)
+        {
+            this.url = "/codex/items" + "?itemId=" + this.item.id;
+        }
     }
 }

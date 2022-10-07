@@ -18,7 +18,7 @@ export class CodexHomeComponent implements OnInit
 
     ngOnInit(): void
     {
-        this.titleService.setTitle('YASC - Codex');
-        this.logger.log('Codex loaded');
+        this.titleService.setTitle("Codex - YASC");
+        this.logger.log("Codex loaded");
     }
 }

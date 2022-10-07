@@ -1,3 +1,14 @@
-<div *ngIf="item === null" class="item-detail-container">Please select an item from the list!</div>
+<ng-container *ngIf="item === null">
+    <div class="item-detail-container">
+        Please select an item from the list!
+    </div>
+</ng-container>
 
-<div *ngIf="item !== null" class="item-detail-container">{{ item.name }}</div>
+<ng-container *ngIf="item !== null">
+    <div class="item-detail-container">
+        <p>{{ item.name }}</p>
+        <div>
+            <a href="{{ url }}" target="_blank">Open in new tab</a>
+        </div>
+    </div>
+</ng-container>

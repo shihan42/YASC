@@ -18,7 +18,7 @@
 
                         <mat-selection-list [multiple]="false" class="item-list">
                             <mat-list-option *ngFor="let item of items$ | async | itemFilter:search.value"
-                                (selectedChange)="currentItem = item"
+                                (selectedChange)="selectItem(item)"
                                 [value]="item">{{ item.name }}</mat-list-option>
                         </mat-selection-list>
 

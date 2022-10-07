@@ -1,7 +1,10 @@
+import { query } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { ActivatedRoute, convertToParamMap, Router } from '@angular/router';
 import { Store } from '@ngrx/store';
 import { NGXLogger } from 'ngx-logger';
+import { take } from 'rxjs';
 
 import { selectItems } from 'src/app/state/itemsState/items.selectors';
 import { Item } from '../../../models/items';
@@ -20,6 +23,8 @@ export class ItemsBrowserComponent implements OnInit
     filterString : string = "";
 
 	constructor(
+        private router : Router,
+        private activeRoute: ActivatedRoute,
         private store: Store,
         private titleService: Title,
         private logger: NGXLogger
@@ -28,7 +33,26 @@ export class ItemsBrowserComponent implements OnInit
 
     ngOnInit(): void
     {
-        this.titleService.setTitle("YASC - Items");
+        this.activeRoute.queryParams.subscribe(queryParams => {
+            let params = convertToParamMap(queryParams);
+            if (params.has("itemId")) {
+                let itemId = Number(params.get("itemId"));
+                this.store.select(selectItems).pipe(take(1)).subscribe(items => {
+                    let item = items.filter(i => i.id == itemId);
+                    if (item.length == 1)
+                    {
+                        this.currentItem = item[0];
+                    }
+                });
+            }
+        });
+
+        this.titleService.setTitle("Item Browser - YASC");
         this.logger.log("Items browser loaded");
+    }
+
+    selectItem(newItem : Item): void
+    {
+        this.router.navigate(["../items"], {queryParams: {itemId: newItem.id}, relativeTo: this.activeRoute});
     }
 }

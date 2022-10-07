@@ -21,12 +21,7 @@ const routes: Routes = [
             },
             {
                 path: 'items',
-                component: ItemsBrowserComponent,
-                pathMatch: 'full'
-            },
-            {
-                path: 'items/:itemId',
-                component: ItemDetailComponent
+                component: ItemsBrowserComponent
             },
             {
                 path: 'recipes',

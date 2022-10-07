@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_Snow.Desc_Snow_C",
     "name": "Actual Snow",
     "category": "ficsmas",
@@ -8,6 +9,7 @@
     "stack": 500
   },
   {
+    "id": 2,
     "className": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_5.Desc_SpaceElevatorPart_5_C",
     "name": "Adaptive Control Unit",
     "category": "special",
@@ -16,6 +18,7 @@
     "stack": 50
   },
   {
+    "id": 3,
     "className": "/Game/FactoryGame/Resource/Equipment/Decoration/Desc_CharacterRunStatue.Desc_CharacterRunStatue_C",
     "name": "Adequate Pioneering",
     "category": "statue",
@@ -24,6 +27,7 @@
     "stack": 1
   },
   {
+    "id": 4,
     "className": "/Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C",
     "name": "AI Limiter",
     "category": "electronic",
@@ -32,6 +36,7 @@
     "stack": 100
   },
   {
+    "id": 5,
     "className": "/Game/FactoryGame/Resource/Parts/AluminumPlate/Desc_AluminumPlate.Desc_AluminumPlate_C",
     "name": "Alclad Aluminum Sheet",
     "category": "standard",
@@ -40,6 +45,7 @@
     "stack": 200
   },
   {
+    "id": 6,
     "className": "/Game/FactoryGame/Resource/Parts/AlienProtein/Desc_AlienProtein.Desc_AlienProtein_C",
     "name": "Alien Protein",
     "category": "animal",
@@ -48,6 +54,7 @@
     "stack": 100
   },
   {
+    "id": 7,
     "className": "/Game/FactoryGame/Resource/Parts/Alumina/Desc_AluminaSolution.Desc_AluminaSolution_C",
     "name": "Alumina Solution",
     "category": "liquid",
@@ -56,6 +63,7 @@
     "stack": 0
   },
   {
+    "id": 8,
     "className": "/Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C",
     "name": "Aluminum Casing",
     "category": "standard",
@@ -64,6 +72,7 @@
     "stack": 200
   },
   {
+    "id": 9,
     "className": "/Game/FactoryGame/Resource/Parts/AluminumIngot/Desc_AluminumIngot.Desc_AluminumIngot_C",
     "name": "Aluminum Ingot",
     "category": "ingot",
@@ -72,6 +81,7 @@
     "stack": 100
   },
   {
+    "id": 10,
     "className": "/Game/FactoryGame/Resource/Parts/AluminumScrap/Desc_AluminumScrap.Desc_AluminumScrap_C",
     "name": "Aluminum Scrap",
     "category": "mineral",
@@ -80,6 +90,7 @@
     "stack": 500
   },
   {
+    "id": 11,
     "className": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_7.Desc_SpaceElevatorPart_7_C",
     "name": "Assembly Director System",
     "category": "special",
@@ -88,6 +99,7 @@
     "stack": 50
   },
   {
+    "id": 12,
     "className": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_3.Desc_SpaceElevatorPart_3_C",
     "name": "Automated Wiring",
     "category": "special",
@@ -96,6 +108,7 @@
     "stack": 50
   },
   {
+    "id": 13,
     "className": "/Game/FactoryGame/Resource/Parts/Battery/Desc_Battery.Desc_Battery_C",
     "name": "Battery",
     "category": "industrial",
@@ -104,6 +117,7 @@
     "stack": 200
   },
   {
+    "id": 14,
     "className": "/Game/FactoryGame/Resource/RawResources/OreBauxite/Desc_OreBauxite.Desc_OreBauxite_C",
     "name": "Bauxite",
     "category": "ore",
@@ -112,6 +126,7 @@
     "stack": 100
   },
   {
+    "id": 15,
     "className": "/Game/FactoryGame/Resource/Equipment/Beacon/BP_EquipmentDescriptorBeacon.BP_EquipmentDescriptorBeacon_C",
     "name": "Beacon",
     "category": "consumed",
@@ -120,6 +135,7 @@
     "stack": 100
   },
   {
+    "id": 16,
     "className": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_GenericBiomass.Desc_GenericBiomass_C",
     "name": "Biomass",
     "category": "fuel",
@@ -128,6 +144,7 @@
     "stack": 200
   },
   {
+    "id": 17,
     "className": "/Game/FactoryGame/Resource/Parts/GunPowder/Desc_Gunpowder.Desc_Gunpowder_C",
     "name": "Black Powder",
     "category": "consumed",
@@ -136,6 +153,7 @@
     "stack": 200
   },
   {
+    "id": 18,
     "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall2.Desc_XmasBall2_C",
     "name": "Blue FICSMAS Ornament",
     "category": "ficsmas",
@@ -144,6 +162,7 @@
     "stack": 500
   },
   {
+    "id": 19,
     "className": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal.Desc_Crystal_C",
     "name": "Blue Power Slug",
     "category": "special",
@@ -152,6 +171,7 @@
     "stack": 50
   },
   {
+    "id": 20,
     "className": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C",
     "name": "Cable",
     "category": "electronic",
@@ -160,6 +180,7 @@
     "stack": 200
   },
   {
+    "id": 21,
     "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_CandyCane.Desc_CandyCane_C",
     "name": "Candy Cane",
     "category": "ficsmas",
@@ -168,6 +189,7 @@
     "stack": 500
   },
   {
+    "id": 22,
     "className": "/Game/FactoryGame/Resource/Parts/GoldIngot/Desc_GoldIngot.Desc_GoldIngot_C",
     "name": "Caterium Ingot",
     "category": "ingot",
@@ -176,6 +198,7 @@
     "stack": 100
   },
   {
+    "id": 23,
     "className": "/Game/FactoryGame/Resource/RawResources/OreGold/Desc_OreGold.Desc_OreGold_C",
     "name": "Caterium Ore",
     "category": "ore",
@@ -184,6 +207,7 @@
     "stack": 100
   },
   {
+    "id": 24,
     "className": "/Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C",
     "name": "Circuit Board",
     "category": "electronic",
@@ -192,6 +216,7 @@
     "stack": 200
   },
   {
+    "id": 25,
     "className": "/Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskCluster.Desc_NobeliskCluster_C",
     "name": "Cluster Nobelisk",
     "category": "ammo",
@@ -200,6 +225,7 @@
     "stack": 50
   },
   {
+    "id": 26,
     "className": "/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C",
     "name": "Coal",
     "category": "ore",
@@ -208,6 +234,7 @@
     "stack": 100
   },
   {
+    "id": 27,
     "className": "/Game/FactoryGame/Resource/Parts/ColorCartridge/Desc_ColorCartridge.Desc_ColorCartridge_C",
     "name": "Color Cartridge",
     "category": "consumed",
@@ -216,6 +243,7 @@
     "stack": 200
   },
   {
+    "id": 28,
     "className": "/Game/FactoryGame/Resource/Parts/CompactedCoal/Desc_CompactedCoal.Desc_CompactedCoal_C",
     "name": "Compacted Coal",
     "category": "fuel",
@@ -224,6 +252,7 @@
     "stack": 100
   },
   {
+    "id": 29,
     "className": "/Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C",
     "name": "Computer",
     "category": "communication",
@@ -232,6 +261,7 @@
     "stack": 50
   },
   {
+    "id": 30,
     "className": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C",
     "name": "Concrete",
     "category": "mineral",
@@ -240,6 +270,7 @@
     "stack": 500
   },
   {
+    "id": 31,
     "className": "/Game/FactoryGame/Resource/Equipment/Decoration/Desc_SpaceGiraffeStatue.Desc_SpaceGiraffeStatue_C",
     "name": "Confusing Creature",
     "category": "statue",
@@ -248,6 +279,7 @@
     "stack": 1
   },
   {
+    "id": 32,
     "className": "/Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C",
     "name": "Cooling System",
     "category": "industrial",
@@ -256,6 +288,7 @@
     "stack": 100
   },
   {
+    "id": 33,
     "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall3.Desc_XmasBall3_C",
     "name": "Copper FICSMAS Ornament",
     "category": "ficsmas",
@@ -264,6 +297,7 @@
     "stack": 200
   },
   {
+    "id": 34,
     "className": "/Game/FactoryGame/Resource/Parts/CopperIngot/Desc_CopperIngot.Desc_CopperIngot_C",
     "name": "Copper Ingot",
     "category": "ingot",
@@ -272,6 +306,7 @@
     "stack": 100
   },
   {
+    "id": 35,
     "className": "/Game/FactoryGame/Resource/RawResources/OreCopper/Desc_OreCopper.Desc_OreCopper_C",
     "name": "Copper Ore",
     "category": "ore",
@@ -280,6 +315,7 @@
     "stack": 100
   },
   {
+    "id": 36,
     "className": "/Game/FactoryGame/Resource/Parts/CopperDust/Desc_CopperDust.Desc_CopperDust_C",
     "name": "Copper Powder",
     "category": "mineral",
@@ -288,6 +324,7 @@
     "stack": 500
   },
   {
+    "id": 37,
     "className": "/Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C",
     "name": "Copper Sheet",
     "category": "standard",
@@ -296,6 +333,7 @@
     "stack": 200
   },
   {
+    "id": 38,
     "className": "/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C",
     "name": "Crude Oil",
     "category": "liquid",
@@ -304,6 +342,7 @@
     "stack": 0
   },
   {
+    "id": 39,
     "className": "/Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C",
     "name": "Crystal Oscillator",
     "category": "communication",
@@ -312,6 +351,7 @@
     "stack": 100
   },
   {
+    "id": 40,
     "className": "/Game/FactoryGame/Resource/Parts/ElectromagneticControlRod/Desc_ElectromagneticControlRod.Desc_ElectromagneticControlRod_C",
     "name": "Electromagnetic Control Rod",
     "category": "nuclear",
@@ -320,6 +360,7 @@
     "stack": 100
   },
   {
+    "id": 41,
     "className": "/Game/FactoryGame/Resource/Parts/FluidCanister/Desc_FluidCanister.Desc_FluidCanister_C",
     "name": "Empty Canister",
     "category": "container",
@@ -328,6 +369,7 @@
     "stack": 100
   },
   {
+    "id": 42,
     "className": "/Game/FactoryGame/Resource/Parts/GasTank/Desc_GasTank.Desc_GasTank_C",
     "name": "Empty Fluid Tank",
     "category": "container",
@@ -336,6 +378,7 @@
     "stack": 100
   },
   {
+    "id": 43,
     "className": "/Game/FactoryGame/Resource/Parts/SteelPlateReinforced/Desc_SteelPlateReinforced.Desc_SteelPlateReinforced_C",
     "name": "Encased Industrial Beam",
     "category": "standard",
@@ -344,6 +387,7 @@
     "stack": 100
   },
   {
+    "id": 44,
     "className": "/Game/FactoryGame/Resource/Parts/PlutoniumCell/Desc_PlutoniumCell.Desc_PlutoniumCell_C",
     "name": "Encased Plutonium Cell",
     "category": "nuclear",
@@ -352,6 +396,7 @@
     "stack": 200
   },
   {
+    "id": 45,
     "className": "/Game/FactoryGame/Resource/Parts/UraniumCell/Desc_UraniumCell.Desc_UraniumCell_C",
     "name": "Encased Uranium Cell",
     "category": "nuclear",
@@ -360,6 +405,7 @@
     "stack": 200
   },
   {
+    "id": 46,
     "className": "/Game/FactoryGame/Equipment/RebarGun/Ammo/Desc_Rebar_Explosive.Desc_Rebar_Explosive_C",
     "name": "Explosive Rebar",
     "category": "ammo",
@@ -368,6 +414,7 @@
     "stack": 100
   },
   {
+    "id": 47,
     "className": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Fabric.Desc_Fabric_C",
     "name": "Fabric",
     "category": "standard",
@@ -376,6 +423,7 @@
     "stack": 100
   },
   {
+    "id": 48,
     "className": "/Game/FactoryGame/Events/Christmas/Fireworks/Desc_Fireworks_Projectile_02.Desc_Fireworks_Projectile_02_C",
     "name": "Fancy Fireworks",
     "category": "ficsmas",
@@ -384,6 +432,7 @@
     "stack": 500
   },
   {
+    "id": 49,
     "className": "/Game/FactoryGame/Resource/Parts/ResourceSinkCoupon/Desc_ResourceSinkCoupon.Desc_ResourceSinkCoupon_C",
     "name": "FICSIT Coupon",
     "category": "special",
@@ -392,6 +441,7 @@
     "stack": 500
   },
   {
+    "id": 50,
     "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBow.Desc_XmasBow_C",
     "name": "FICSMAS Bow",
     "category": "ficsmas",
@@ -400,6 +450,7 @@
     "stack": 500
   },
   {
+    "id": 51,
     "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasWreath.Desc_XmasWreath_C",
     "name": "FICSMAS Decoration",
     "category": "ficsmas",
@@ -408,6 +459,7 @@
     "stack": 100
   },
   {
+    "id": 52,
     "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_Gift.Desc_Gift_C",
     "name": "FICSMAS Gift",
     "category": "ficsmas",
@@ -416,6 +468,7 @@
     "stack": 500
   },
   {
+    "id": 53,
     "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBallCluster.Desc_XmasBallCluster_C",
     "name": "FICSMAS Ornament Bundle",
     "category": "ficsmas",
@@ -424,6 +477,7 @@
     "stack": 100
   },
   {
+    "id": 54,
     "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBranch.Desc_XmasBranch_C",
     "name": "FICSMAS Tree Branch",
     "category": "ficsmas",
@@ -432,6 +486,7 @@
     "stack": 500
   },
   {
+    "id": 55,
     "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasStar.Desc_XmasStar_C",
     "name": "FICSMAS Wonder Star",
     "category": "ficsmas",
@@ -440,6 +495,7 @@
     "stack": 50
   },
   {
+    "id": 56,
     "className": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_FlowerPetals.Desc_FlowerPetals_C",
     "name": "Flower Petals",
     "category": "fuel",
@@ -448,6 +504,7 @@
     "stack": 500
   },
   {
+    "id": 57,
     "className": "/Game/FactoryGame/Resource/Parts/Fuel/Desc_LiquidFuel.Desc_LiquidFuel_C",
     "name": "Fuel",
     "category": "liquid",
@@ -456,6 +513,7 @@
     "stack": 0
   },
   {
+    "id": 58,
     "className": "/Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C",
     "name": "Fused Modular Frame",
     "category": "standard",
@@ -464,6 +522,7 @@
     "stack": 50
   },
   {
+    "id": 59,
     "className": "/Game/FactoryGame/Resource/Parts/Filter/Desc_Filter.Desc_Filter_C",
     "name": "Gas Filter",
     "category": "consumed",
@@ -472,6 +531,7 @@
     "stack": 50
   },
   {
+    "id": 60,
     "className": "/Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskGas.Desc_NobeliskGas_C",
     "name": "Gas Nobelisk",
     "category": "ammo",
@@ -480,6 +540,7 @@
     "stack": 50
   },
   {
+    "id": 61,
     "className": "/Game/FactoryGame/Resource/Equipment/Decoration/Desc_GoldenNut_Statue.Desc_GoldenNut_Statue_C",
     "name": "Golden Nut",
     "category": "statue",
@@ -488,6 +549,7 @@
     "stack": 1
   },
   {
+    "id": 62,
     "className": "/Game/FactoryGame/Resource/Parts/AluminumPlateReinforced/Desc_AluminumPlateReinforced.Desc_AluminumPlateReinforced_C",
     "name": "Heat Sink",
     "category": "industrial",
@@ -496,6 +558,7 @@
     "stack": 100
   },
   {
+    "id": 63,
     "className": "/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C",
     "name": "Heavy Modular Frame",
     "category": "standard",
@@ -504,6 +567,7 @@
     "stack": 50
   },
   {
+    "id": 64,
     "className": "/Game/FactoryGame/Resource/Parts/HeavyOilResidue/Desc_HeavyOilResidue.Desc_HeavyOilResidue_C",
     "name": "Heavy Oil Residue",
     "category": "liquid",
@@ -512,6 +576,7 @@
     "stack": 0
   },
   {
+    "id": 65,
     "className": "/Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C",
     "name": "High-Speed Connector",
     "category": "electronic",
@@ -520,6 +585,7 @@
     "stack": 100
   },
   {
+    "id": 66,
     "className": "/Game/FactoryGame/Equipment/Rifle/Ammo/Desc_CartridgeSmartProjectile.Desc_CartridgeSmartProjectile_C",
     "name": "Homing Rifle Ammo",
     "category": "ammo",
@@ -528,6 +594,7 @@
     "stack": 500
   },
   {
+    "id": 67,
     "className": "/Game/FactoryGame/Resource/Parts/IodineInfusedFilter/Desc_HazmatFilter.Desc_HazmatFilter_C",
     "name": "Iodine Infused Filter",
     "category": "consumed",
@@ -536,6 +603,7 @@
     "stack": 50
   },
   {
+    "id": 68,
     "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall4.Desc_XmasBall4_C",
     "name": "Iron FICSMAS Ornament",
     "category": "ficsmas",
@@ -544,6 +612,7 @@
     "stack": 200
   },
   {
+    "id": 69,
     "className": "/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C",
     "name": "Iron Ingot",
     "category": "ingot",
@@ -552,6 +621,7 @@
     "stack": 100
   },
   {
+    "id": 70,
     "className": "/Game/FactoryGame/Resource/RawResources/OreIron/Desc_OreIron.Desc_OreIron_C",
     "name": "Iron Ore",
     "category": "ore",
@@ -560,6 +630,7 @@
     "stack": 100
   },
   {
+    "id": 71,
     "className": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C",
     "name": "Iron Plate",
     "category": "standard",
@@ -568,6 +639,7 @@
     "stack": 200
   },
   {
+    "id": 72,
     "className": "/Game/FactoryGame/Resource/Parts/SpikedRebar/Desc_SpikedRebar.Desc_SpikedRebar_C",
     "name": "Iron Rebar",
     "category": "ammo",
@@ -576,6 +648,7 @@
     "stack": 100
   },
   {
+    "id": 73,
     "className": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C",
     "name": "Iron Rod",
     "category": "standard",
@@ -584,6 +657,7 @@
     "stack": 200
   },
   {
+    "id": 74,
     "className": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Leaves.Desc_Leaves_C",
     "name": "Leaves",
     "category": "fuel",
@@ -592,6 +666,7 @@
     "stack": 500
   },
   {
+    "id": 75,
     "className": "/Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C",
     "name": "Limestone",
     "category": "ore",
@@ -600,6 +675,7 @@
     "stack": 100
   },
   {
+    "id": 76,
     "className": "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_LiquidBiofuel.Desc_LiquidBiofuel_C",
     "name": "Liquid Biofuel",
     "category": "liquid",
@@ -608,6 +684,7 @@
     "stack": 0
   },
   {
+    "id": 77,
     "className": "/Game/FactoryGame/Resource/Equipment/Decoration/Desc_DoggoStatue.Desc_DoggoStatue_C",
     "name": "Lizard Doggo Statue",
     "category": "statue",
@@ -616,6 +693,7 @@
     "stack": 1
   },
   {
+    "id": 78,
     "className": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_6.Desc_SpaceElevatorPart_6_C",
     "name": "Magnetic Field Generator",
     "category": "special",
@@ -624,6 +702,7 @@
     "stack": 50
   },
   {
+    "id": 79,
     "className": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_4.Desc_SpaceElevatorPart_4_C",
     "name": "Modular Engine",
     "category": "special",
@@ -632,6 +711,7 @@
     "stack": 50
   },
   {
+    "id": 80,
     "className": "/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C",
     "name": "Modular Frame",
     "category": "standard",
@@ -640,6 +720,7 @@
     "stack": 50
   },
   {
+    "id": 81,
     "className": "/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C",
     "name": "Motor",
     "category": "industrial",
@@ -648,6 +729,7 @@
     "stack": 50
   },
   {
+    "id": 82,
     "className": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Mycelia.Desc_Mycelia_C",
     "name": "Mycelia",
     "category": "fuel",
@@ -656,6 +738,7 @@
     "stack": 200
   },
   {
+    "id": 83,
     "className": "/Game/FactoryGame/Resource/Parts/NitricAcid/Desc_NitricAcid.Desc_NitricAcid_C",
     "name": "Nitric Acid",
     "category": "liquid",
@@ -664,6 +747,7 @@
     "stack": 0
   },
   {
+    "id": 84,
     "className": "/Game/FactoryGame/Resource/RawResources/NitrogenGas/Desc_NitrogenGas.Desc_NitrogenGas_C",
     "name": "Nitrogen Gas",
     "category": "gas",
@@ -672,6 +756,7 @@
     "stack": 0
   },
   {
+    "id": 85,
     "className": "/Game/FactoryGame/Resource/Parts/NobeliskExplosive/Desc_NobeliskExplosive.Desc_NobeliskExplosive_C",
     "name": "Nobelisk",
     "category": "ammo",
@@ -680,6 +765,7 @@
     "stack": 50
   },
   {
+    "id": 86,
     "className": "/Game/FactoryGame/Resource/Parts/Non-FissibleUranium/Desc_NonFissibleUranium.Desc_NonFissibleUranium_C",
     "name": "Non-fissile Uranium",
     "category": "nuclear",
@@ -688,6 +774,7 @@
     "stack": 500
   },
   {
+    "id": 87,
     "className": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_9.Desc_SpaceElevatorPart_9_C",
     "name": "Nuclear Pasta",
     "category": "special",
@@ -696,6 +783,7 @@
     "stack": 50
   },
   {
+    "id": 88,
     "className": "/Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskNuke.Desc_NobeliskNuke_C",
     "name": "Nuke Nobelisk",
     "category": "ammo",
@@ -704,6 +792,7 @@
     "stack": 50
   },
   {
+    "id": 89,
     "className": "/Game/FactoryGame/Resource/Parts/AlienDNACapsule/Desc_AlienDNACapsule.Desc_AlienDNACapsule_C",
     "name": "Organic Data Capsule",
     "category": "animal",
@@ -712,6 +801,7 @@
     "stack": 50
   },
   {
+    "id": 90,
     "className": "/Game/FactoryGame/Resource/Parts/Alumina/Desc_PackagedAlumina.Desc_PackagedAlumina_C",
     "name": "Packaged Alumina Solution",
     "category": "container",
@@ -720,6 +810,7 @@
     "stack": 100
   },
   {
+    "id": 91,
     "className": "/Game/FactoryGame/Resource/Parts/Fuel/Desc_Fuel.Desc_Fuel_C",
     "name": "Packaged Fuel",
     "category": "fuel",
@@ -728,6 +819,7 @@
     "stack": 100
   },
   {
+    "id": 92,
     "className": "/Game/FactoryGame/Resource/Parts/HeavyOilResidue/Desc_PackagedOilResidue.Desc_PackagedOilResidue_C",
     "name": "Packaged Heavy Oil Residue",
     "category": "fuel",
@@ -736,6 +828,7 @@
     "stack": 100
   },
   {
+    "id": 93,
     "className": "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_PackagedBiofuel.Desc_PackagedBiofuel_C",
     "name": "Packaged Liquid Biofuel",
     "category": "fuel",
@@ -744,6 +837,7 @@
     "stack": 100
   },
   {
+    "id": 94,
     "className": "/Game/FactoryGame/Resource/Parts/NitricAcid/Desc_PackagedNitricAcid.Desc_PackagedNitricAcid_C",
     "name": "Packaged Nitric Acid",
     "category": "container",
@@ -752,6 +846,7 @@
     "stack": 100
   },
   {
+    "id": 95,
     "className": "/Game/FactoryGame/Resource/Parts/PackagedNitrogen/Desc_PackagedNitrogenGas.Desc_PackagedNitrogenGas_C",
     "name": "Packaged Nitrogen Gas",
     "category": "container",
@@ -760,6 +855,7 @@
     "stack": 100
   },
   {
+    "id": 96,
     "className": "/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_PackagedOil.Desc_PackagedOil_C",
     "name": "Packaged Oil",
     "category": "fuel",
@@ -768,6 +864,7 @@
     "stack": 100
   },
   {
+    "id": 97,
     "className": "/Game/FactoryGame/Resource/Parts/SulfuricAcid/Desc_PackagedSulfuricAcid.Desc_PackagedSulfuricAcid_C",
     "name": "Packaged Sulfuric Acid",
     "category": "container",
@@ -776,6 +873,7 @@
     "stack": 100
   },
   {
+    "id": 98,
     "className": "/Game/FactoryGame/Resource/Parts/Turbofuel/Desc_TurboFuel.Desc_TurboFuel_C",
     "name": "Packaged Turbofuel",
     "category": "fuel",
@@ -784,6 +882,7 @@
     "stack": 100
   },
   {
+    "id": 99,
     "className": "/Game/FactoryGame/Resource/RawResources/Water/Desc_PackagedWater.Desc_PackagedWater_C",
     "name": "Packaged Water",
     "category": "container",
@@ -792,6 +891,7 @@
     "stack": 100
   },
   {
+    "id": 100,
     "className": "/Game/FactoryGame/Resource/Parts/PetroleumCoke/Desc_PetroleumCoke.Desc_PetroleumCoke_C",
     "name": "Petroleum Coke",
     "category": "mineral",
@@ -800,6 +900,7 @@
     "stack": 200
   },
   {
+    "id": 101,
     "className": "/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C",
     "name": "Plastic",
     "category": "standard",
@@ -808,6 +909,7 @@
     "stack": 200
   },
   {
+    "id": 102,
     "className": "/Game/FactoryGame/Resource/Parts/PlutoniumFuelRods/Desc_PlutoniumFuelRod.Desc_PlutoniumFuelRod_C",
     "name": "Plutonium Fuel Rod",
     "category": "fuel",
@@ -816,6 +918,7 @@
     "stack": 50
   },
   {
+    "id": 103,
     "className": "/Game/FactoryGame/Resource/Parts/PlutoniumPellet/Desc_PlutoniumPellet.Desc_PlutoniumPellet_C",
     "name": "Plutonium Pellet",
     "category": "nuclear",
@@ -824,6 +927,7 @@
     "stack": 100
   },
   {
+    "id": 104,
     "className": "/Game/FactoryGame/Resource/Parts/NuclearWaste/Desc_PlutoniumWaste.Desc_PlutoniumWaste_C",
     "name": "Plutonium Waste",
     "category": "waste",
@@ -832,6 +936,7 @@
     "stack": 500
   },
   {
+    "id": 105,
     "className": "/Game/FactoryGame/Resource/Parts/PolymerResin/Desc_PolymerResin.Desc_PolymerResin_C",
     "name": "Polymer Resin",
     "category": "mineral",
@@ -840,6 +945,7 @@
     "stack": 200
   },
   {
+    "id": 106,
     "className": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_CrystalShard.Desc_CrystalShard_C",
     "name": "Power Shard",
     "category": "special",
@@ -848,6 +954,7 @@
     "stack": 100
   },
   {
+    "id": 107,
     "className": "/Game/FactoryGame/Resource/Parts/PressureConversionCube/Desc_PressureConversionCube.Desc_PressureConversionCube_C",
     "name": "Pressure Conversion Cube",
     "category": "container",
@@ -856,6 +963,7 @@
     "stack": 50
   },
   {
+    "id": 108,
     "className": "/Game/FactoryGame/Resource/Equipment/Decoration/Desc_CharacterClap_Statue.Desc_CharacterClap_Statue_C",
     "name": "Pretty Good Pioneering",
     "category": "statue",
@@ -864,6 +972,7 @@
     "stack": 1
   },
   {
+    "id": 109,
     "className": "/Game/FactoryGame/Equipment/NobeliskDetonator/Ammo/Desc_NobeliskShockwave.Desc_NobeliskShockwave_C",
     "name": "Pulse Nobelisk",
     "category": "ammo",
@@ -872,6 +981,7 @@
     "stack": 50
   },
   {
+    "id": 110,
     "className": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal_mk3.Desc_Crystal_mk3_C",
     "name": "Purple Power Slug",
     "category": "special",
@@ -880,6 +990,7 @@
     "stack": 50
   },
   {
+    "id": 111,
     "className": "/Game/FactoryGame/Resource/Parts/ComputerQuantum/Desc_ComputerQuantum.Desc_ComputerQuantum_C",
     "name": "Quantum Computer",
     "category": "communication",
@@ -888,6 +999,7 @@
     "stack": 200
   },
   {
+    "id": 112,
     "className": "/Game/FactoryGame/Resource/Parts/QuartzCrystal/Desc_QuartzCrystal.Desc_QuartzCrystal_C",
     "name": "Quartz Crystal",
     "category": "mineral",
@@ -896,6 +1008,7 @@
     "stack": 200
   },
   {
+    "id": 113,
     "className": "/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C",
     "name": "Quickwire",
     "category": "electronic",
@@ -904,6 +1017,7 @@
     "stack": 500
   },
   {
+    "id": 114,
     "className": "/Game/FactoryGame/Resource/Parts/ModularFrameLightweight/Desc_ModularFrameLightweight.Desc_ModularFrameLightweight_C",
     "name": "Radio Control Unit",
     "category": "communication",
@@ -912,6 +1026,7 @@
     "stack": 50
   },
   {
+    "id": 115,
     "className": "/Game/FactoryGame/Resource/RawResources/RawQuartz/Desc_RawQuartz.Desc_RawQuartz_C",
     "name": "Raw Quartz",
     "category": "ore",
@@ -920,6 +1035,7 @@
     "stack": 100
   },
   {
+    "id": 116,
     "className": "/Game/FactoryGame/Events/Christmas/Parts/Desc_XmasBall1.Desc_XmasBall1_C",
     "name": "Red FICSMAS Ornament",
     "category": "ficsmas",
@@ -928,6 +1044,7 @@
     "stack": 500
   },
   {
+    "id": 117,
     "className": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C",
     "name": "Reinforced Iron Plate",
     "category": "standard",
@@ -936,6 +1053,7 @@
     "stack": 100
   },
   {
+    "id": 118,
     "className": "/Game/FactoryGame/Resource/Parts/CartridgeStandard/Desc_CartridgeStandard.Desc_CartridgeStandard_C",
     "name": "Rifle Ammo",
     "category": "ammo",
@@ -944,6 +1062,7 @@
     "stack": 500
   },
   {
+    "id": 119,
     "className": "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C",
     "name": "Rotor",
     "category": "industrial",
@@ -952,6 +1071,7 @@
     "stack": 100
   },
   {
+    "id": 120,
     "className": "/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C",
     "name": "Rubber",
     "category": "standard",
@@ -960,6 +1080,7 @@
     "stack": 200
   },
   {
+    "id": 121,
     "className": "/Game/FactoryGame/Resource/RawResources/SAM/Desc_SAM.Desc_SAM_C",
     "name": "S.A.M. Ore",
     "category": "ore",
@@ -968,6 +1089,7 @@
     "stack": 50
   },
   {
+    "id": 122,
     "className": "/Game/FactoryGame/Resource/Equipment/Decoration/Desc_CharacterSpin_Statue.Desc_CharacterSpin_Statue_C",
     "name": "Satisfactory Pioneering",
     "category": "statue",
@@ -976,6 +1098,7 @@
     "stack": 1
   },
   {
+    "id": 123,
     "className": "/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C",
     "name": "Screw",
     "category": "standard",
@@ -984,6 +1107,7 @@
     "stack": 500
   },
   {
+    "id": 124,
     "className": "/Game/FactoryGame/Equipment/RebarGun/Ammo/Desc_Rebar_Spreadshot.Desc_Rebar_Spreadshot_C",
     "name": "Shatter Rebar",
     "category": "ammo",
@@ -992,6 +1116,7 @@
     "stack": 100
   },
   {
+    "id": 125,
     "className": "/Game/FactoryGame/Resource/Parts/Silica/Desc_Silica.Desc_Silica_C",
     "name": "Silica",
     "category": "mineral",
@@ -1000,6 +1125,7 @@
     "stack": 200
   },
   {
+    "id": 126,
     "className": "/Game/FactoryGame/Resource/Equipment/Decoration/Desc_Hog_Statue.Desc_Hog_Statue_C",
     "name": "Silver Hog",
     "category": "statue",
@@ -1008,6 +1134,7 @@
     "stack": 1
   },
   {
+    "id": 127,
     "className": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_1.Desc_SpaceElevatorPart_1_C",
     "name": "Smart Plating",
     "category": "special",
@@ -1016,6 +1143,7 @@
     "stack": 50
   },
   {
+    "id": 128,
     "className": "/Game/FactoryGame/Resource/Parts/GunPowder/Desc_GunpowderMK2.Desc_GunpowderMK2_C",
     "name": "Smokeless Powder",
     "category": "consumed",
@@ -1024,6 +1152,7 @@
     "stack": 100
   },
   {
+    "id": 129,
     "className": "/Game/FactoryGame/Resource/Parts/SnowballProjectile/Desc_SnowballProjectile.Desc_SnowballProjectile_C",
     "name": "Snowball",
     "category": "ficsmas",
@@ -1032,6 +1161,7 @@
     "stack": 500
   },
   {
+    "id": 130,
     "className": "/Game/FactoryGame/Resource/Parts/BioFuel/Desc_Biofuel.Desc_Biofuel_C",
     "name": "Solid Biofuel",
     "category": "fuel",
@@ -1040,6 +1170,7 @@
     "stack": 200
   },
   {
+    "id": 131,
     "className": "/Game/FactoryGame/Events/Christmas/Fireworks/Desc_Fireworks_Projectile_03.Desc_Fireworks_Projectile_03_C",
     "name": "Sparkly Fireworks",
     "category": "ficsmas",
@@ -1048,6 +1179,7 @@
     "stack": 500
   },
   {
+    "id": 132,
     "className": "/Game/FactoryGame/Resource/Parts/Stator/Desc_Stator.Desc_Stator_C",
     "name": "Stator",
     "category": "industrial",
@@ -1056,6 +1188,7 @@
     "stack": 100
   },
   {
+    "id": 133,
     "className": "/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C",
     "name": "Steel Beam",
     "category": "standard",
@@ -1064,6 +1197,7 @@
     "stack": 200
   },
   {
+    "id": 134,
     "className": "/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C",
     "name": "Steel Ingot",
     "category": "ingot",
@@ -1072,6 +1206,7 @@
     "stack": 100
   },
   {
+    "id": 135,
     "className": "/Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C",
     "name": "Steel Pipe",
     "category": "standard",
@@ -1080,6 +1215,7 @@
     "stack": 200
   },
   {
+    "id": 136,
     "className": "/Game/FactoryGame/Equipment/RebarGun/Ammo/Desc_Rebar_Stunshot.Desc_Rebar_Stunshot_C",
     "name": "Stun Rebar",
     "category": "ammo",
@@ -1088,6 +1224,7 @@
     "stack": 100
   },
   {
+    "id": 137,
     "className": "/Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C",
     "name": "Sulfur",
     "category": "ore",
@@ -1096,6 +1233,7 @@
     "stack": 100
   },
   {
+    "id": 138,
     "className": "/Game/FactoryGame/Resource/Parts/SulfuricAcid/Desc_SulfuricAcid.Desc_SulfuricAcid_C",
     "name": "Sulfuric Acid",
     "category": "liquid",
@@ -1104,6 +1242,7 @@
     "stack": 0
   },
   {
+    "id": 139,
     "className": "/Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C",
     "name": "Supercomputer",
     "category": "communication",
@@ -1112,6 +1251,7 @@
     "stack": 50
   },
   {
+    "id": 140,
     "className": "/Game/FactoryGame/Resource/Parts/QuantumOscillator/Desc_QuantumOscillator.Desc_QuantumOscillator_C",
     "name": "Superposition Oscillator",
     "category": "communication",
@@ -1120,6 +1260,7 @@
     "stack": 200
   },
   {
+    "id": 141,
     "className": "/Game/FactoryGame/Events/Christmas/Fireworks/Desc_Fireworks_Projectile_01.Desc_Fireworks_Projectile_01_C",
     "name": "Sweet Fireworks",
     "category": "ficsmas",
@@ -1128,6 +1269,7 @@
     "stack": 500
   },
   {
+    "id": 142,
     "className": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_8.Desc_SpaceElevatorPart_8_C",
     "name": "Thermal Propulsion Rocket",
     "category": "special",
@@ -1136,6 +1278,7 @@
     "stack": 50
   },
   {
+    "id": 143,
     "className": "/Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C",
     "name": "Turbo Motor",
     "category": "industrial",
@@ -1144,6 +1287,7 @@
     "stack": 50
   },
   {
+    "id": 144,
     "className": "/Game/FactoryGame/Equipment/Rifle/Ammo/Desc_CartridgeChaos.Desc_CartridgeChaos_C",
     "name": "Turbo Rifle Ammo",
     "category": "ammo",
@@ -1152,6 +1296,7 @@
     "stack": 500
   },
   {
+    "id": 145,
     "className": "/Game/FactoryGame/Resource/Parts/Turbofuel/Desc_LiquidTurboFuel.Desc_LiquidTurboFuel_C",
     "name": "Turbofuel",
     "category": "liquid",
@@ -1160,6 +1305,7 @@
     "stack": 0
   },
   {
+    "id": 146,
     "className": "/Game/FactoryGame/Resource/RawResources/OreUranium/Desc_OreUranium.Desc_OreUranium_C",
     "name": "Uranium",
     "category": "ore",
@@ -1168,6 +1314,7 @@
     "stack": 100
   },
   {
+    "id": 147,
     "className": "/Game/FactoryGame/Resource/Parts/NuclearFuelRod/Desc_NuclearFuelRod.Desc_NuclearFuelRod_C",
     "name": "Uranium Fuel Rod",
     "category": "fuel",
@@ -1176,6 +1323,7 @@
     "stack": 50
   },
   {
+    "id": 148,
     "className": "/Game/FactoryGame/Resource/Parts/NuclearWaste/Desc_NuclearWaste.Desc_NuclearWaste_C",
     "name": "Uranium Waste",
     "category": "waste",
@@ -1184,6 +1332,7 @@
     "stack": 500
   },
   {
+    "id": 149,
     "className": "/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_2.Desc_SpaceElevatorPart_2_C",
     "name": "Versatile Framework",
     "category": "special",
@@ -1192,6 +1341,7 @@
     "stack": 50
   },
   {
+    "id": 150,
     "className": "/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C",
     "name": "Water",
     "category": "liquid",
@@ -1200,6 +1350,7 @@
     "stack": 0
   },
   {
+    "id": 151,
     "className": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C",
     "name": "Wire",
     "category": "electronic",
@@ -1208,6 +1359,7 @@
     "stack": 500
   },
   {
+    "id": 152,
     "className": "/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Wood.Desc_Wood_C",
     "name": "Wood",
     "category": "fuel",
@@ -1216,6 +1368,7 @@
     "stack": 200
   },
   {
+    "id": 153,
     "className": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal_mk2.Desc_Crystal_mk2_C",
     "name": "Yellow Power Slug",
     "category": "special",
