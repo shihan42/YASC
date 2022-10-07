@@ -1,17 +1,16 @@
 import { ActionReducerMap, MetaReducer } from '@ngrx/store';
 import { environment } from '../../environments/environment';
 
-import { Item } from '../features/codex/models/items';
-import { itemsReducer } from './items.reducer';
+import { itemsReducer, ItemsState } from './itemsState/items.reducer';
 
 
-export interface State
+export interface AppState
 {
-    items : ReadonlyArray<Item>;
+    itemState: ItemsState
 }
 
-export const reducers: ActionReducerMap<State> = {
-    items: itemsReducer
+export const reducers: ActionReducerMap<AppState> = {
+    itemState: itemsReducer
 };
 
-export const metaReducers: MetaReducer<State>[] = !environment.production ? [] : [];
+export const metaReducers: MetaReducer<AppState>[] = !environment.production ? [] : [];

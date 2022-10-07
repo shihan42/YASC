@@ -9,7 +9,7 @@ export class ItemFilterPipe implements PipeTransform
 {
     transform(items: readonly Item[]|null, filter? : string): readonly Item[]
     {
-        if (items === null)
+        if (items === null || items === undefined)
         {
             return [];
         }

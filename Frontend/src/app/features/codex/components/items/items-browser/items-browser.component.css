@@ -1,3 +1,8 @@
+.container {
+    box-sizing: border-box;
+    height: calc(100% - 64px);
+}
+
 .mat-subheader {
     color: #e88427;
 }
@@ -11,6 +16,6 @@
 }
 
 .item-list {
-    max-height: 750px;
+    max-height: calc(100vh - 300px);
     overflow: auto;
 }
