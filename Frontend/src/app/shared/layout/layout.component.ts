@@ -4,7 +4,6 @@ import { timer } from 'rxjs';
 import { Subscription } from 'rxjs';
 
 import { AuthenticationService } from 'src/app/core/services/auth.service';
-import { SpinnerService } from '../../core/services/spinner.service';
 import { AuthGuard } from 'src/app/core/guards/auth.guard';
 
 
@@ -26,7 +25,6 @@ export class LayoutComponent implements OnInit, OnDestroy, AfterViewInit
     constructor(
         private changeDetectorRef: ChangeDetectorRef,
         private media: MediaMatcher,
-        public spinnerService: SpinnerService,
         private authService: AuthenticationService,
         private authGuard: AuthGuard
     )

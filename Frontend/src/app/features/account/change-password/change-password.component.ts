@@ -3,7 +3,6 @@ import { Component, OnInit } from '@angular/core';
 import { NGXLogger } from 'ngx-logger';
 import { AuthenticationService } from 'src/app/core/services/auth.service';
 import { NotificationService } from 'src/app/core/services/notification.service';
-import { SpinnerService } from 'src/app/core/services/spinner.service';
 
 
 @Component({
@@ -23,7 +22,6 @@ export class ChangePasswordComponent implements OnInit {
 
   constructor(private authService: AuthenticationService,
     private logger: NGXLogger,
-    private spinnerService: SpinnerService,
     private notificationService: NotificationService) {
 
     this.hideCurrentPassword = true;
@@ -45,10 +43,6 @@ export class ChangePasswordComponent implements OnInit {
 
     this.form.get('newPasswordConfirm')?.valueChanges
       .subscribe(val => { this.newPasswordConfirm = val; });
-
-    this.spinnerService.visibility.subscribe((value) => {
-      this.disableSubmit = value;
-    });
   }
 
   changePassword() {
