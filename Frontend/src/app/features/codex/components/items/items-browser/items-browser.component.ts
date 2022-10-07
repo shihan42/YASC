@@ -33,10 +33,10 @@ export class ItemsBrowserComponent implements OnInit
 
     ngOnInit(): void
     {
-        this.activeRoute.queryParams.subscribe(queryParams => {
-            let params = convertToParamMap(queryParams);
-            if (params.has("itemId")) {
-                let itemId = Number(params.get("itemId"));
+        this.activeRoute.params.subscribe(params => {
+            let paramsMap = convertToParamMap(params);
+            if (paramsMap.has("itemId")) {
+                let itemId = Number(paramsMap.get("itemId"));
                 this.store.select(selectItems).pipe(take(1)).subscribe(items => {
                     let item = items.filter(i => i.id == itemId);
                     if (item.length == 1)
@@ -49,10 +49,5 @@ export class ItemsBrowserComponent implements OnInit
 
         this.titleService.setTitle("Item Browser - YASC");
         this.logger.log("Items browser loaded");
-    }
-
-    selectItem(newItem : Item): void
-    {
-        this.router.navigate(["../items"], {queryParams: {itemId: newItem.id}, relativeTo: this.activeRoute});
     }
 }

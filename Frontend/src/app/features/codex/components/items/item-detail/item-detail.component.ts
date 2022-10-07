@@ -30,10 +30,5 @@ export class ItemDetailComponent implements OnChanges
             this.titleService.setTitle(`${this.item?.name} - Item Browser - YASC`);
             this.logger.log(`Item detail for item ${this.item?.className} loaded`);
         }
-
-        if (this.item !== null)
-        {
-            this.url = "/codex/items" + "?itemId=" + this.item.id;
-        }
     }
 }

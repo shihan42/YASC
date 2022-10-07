@@ -18,7 +18,7 @@
 
                         <mat-selection-list [multiple]="false" class="item-list">
                             <mat-list-option *ngFor="let item of items$ | async | itemFilter:search.value"
-                                (selectedChange)="selectItem(item)"
+                                routerLink="../{{ item.id }}"
                                 [value]="item">{{ item.name }}</mat-list-option>
                         </mat-selection-list>
 

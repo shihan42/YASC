@@ -21,6 +21,11 @@ const routes: Routes = [
             },
             {
                 path: 'items',
+                redirectTo: 'items/',
+                pathMatch: 'full'
+            },
+            {
+                path: 'items/:itemId',
                 component: ItemsBrowserComponent
             },
             {
