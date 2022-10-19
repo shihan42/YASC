@@ -15,8 +15,6 @@ export class ItemDetailComponent implements OnChanges
     @Input()
     item : Item | null = null;
 
-    url : string = "";
-
 	constructor(
         private titleService: Title,
         private logger: NGXLogger

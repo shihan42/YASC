@@ -7,8 +7,9 @@
 <ng-container *ngIf="item !== null">
     <div class="item-detail-container">
         <p>{{ item.name }}</p>
+        <p>{{ item.className }}</p>
         <div>
-            <a href="{{ url }}" target="_blank">Open in new tab</a>
+            <a href="/codex/items/{{ item.id }}" target="_blank">Open in new tab</a>
         </div>
     </div>
 </ng-container>
